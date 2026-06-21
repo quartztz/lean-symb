@@ -1,0 +1,8412 @@
+{
+  "α": {
+    "abbrevs": [
+      "a",
+      "alpha",
+      "Ga"
+    ],
+    "cat": "greek"
+  },
+  "β": {
+    "abbrevs": [
+      "b",
+      "be",
+      "Gb",
+      "beta"
+    ],
+    "cat": "greek"
+  },
+  "γ": {
+    "abbrevs": [
+      "g",
+      "ga",
+      "gamma",
+      "Gg"
+    ],
+    "cat": "greek"
+  },
+  "δ": {
+    "abbrevs": [
+      "de",
+      "delta",
+      "Gd"
+    ],
+    "cat": "greek"
+  },
+  "ε": {
+    "abbrevs": [
+      "e",
+      "ep",
+      "epsilon",
+      "eps",
+      "Ge"
+    ],
+    "cat": "greek"
+  },
+  "ζ": {
+    "abbrevs": [
+      "ze",
+      "Gz",
+      "zeta"
+    ],
+    "cat": "greek"
+  },
+  "η": {
+    "abbrevs": [
+      "et",
+      "eta"
+    ],
+    "cat": "greek"
+  },
+  "θ": {
+    "abbrevs": [
+      "th",
+      "theta",
+      "Gth"
+    ],
+    "cat": "greek"
+  },
+  "ι": {
+    "abbrevs": [
+      "io",
+      "iota",
+      "Gi"
+    ],
+    "cat": "greek"
+  },
+  "κ": {
+    "abbrevs": [
+      "ka",
+      "Gk",
+      "kappa"
+    ],
+    "cat": "greek"
+  },
+  "λ": {
+    "abbrevs": [
+      "la",
+      "lambda",
+      "lamda",
+      "lam",
+      "Gl",
+      "fun"
+    ],
+    "cat": "greek"
+  },
+  "μ": {
+    "abbrevs": [
+      "m",
+      "mu",
+      "Gm"
+    ],
+    "cat": "greek"
+  },
+  "ν": {
+    "abbrevs": [
+      "nu",
+      "Gn"
+    ],
+    "cat": "greek"
+  },
+  "ξ": {
+    "abbrevs": [
+      "xi",
+      "Gx"
+    ],
+    "cat": "greek"
+  },
+  "ο": {
+    "abbrevs": [
+      "omicron"
+    ],
+    "cat": "greek"
+  },
+  "π": {
+    "abbrevs": [
+      "pi"
+    ],
+    "cat": "greek"
+  },
+  "ρ": {
+    "abbrevs": [
+      "rh",
+      "Gr",
+      "rho"
+    ],
+    "cat": "greek"
+  },
+  "σ": {
+    "abbrevs": [
+      "si",
+      "sigma",
+      "Gs"
+    ],
+    "cat": "greek"
+  },
+  "ς": {
+    "abbrevs": [
+      "vsi",
+      "varsigma"
+    ],
+    "cat": "greek"
+  },
+  "τ": {
+    "abbrevs": [
+      "ta",
+      "tau",
+      "Gt"
+    ],
+    "cat": "greek"
+  },
+  "υ": {
+    "abbrevs": [
+      "upsilon",
+      "Gu"
+    ],
+    "cat": "greek"
+  },
+  "φ": {
+    "abbrevs": [
+      "ph",
+      "phi",
+      "straightphi",
+      "Gf"
+    ],
+    "cat": "greek"
+  },
+  "χ": {
+    "abbrevs": [
+      "c",
+      "ch",
+      "Gc",
+      "chi"
+    ],
+    "cat": "greek"
+  },
+  "ψ": {
+    "abbrevs": [
+      "ps",
+      "psi",
+      "Gp"
+    ],
+    "cat": "greek"
+  },
+  "ω": {
+    "abbrevs": [
+      "om",
+      "omega",
+      "Go"
+    ],
+    "cat": "greek"
+  },
+  "Α": {
+    "abbrevs": [
+      "Alpha",
+      "GA"
+    ],
+    "cat": "greek"
+  },
+  "Β": {
+    "abbrevs": [
+      "Beta",
+      "GB"
+    ],
+    "cat": "greek"
+  },
+  "Γ": {
+    "abbrevs": [
+      "Gamma",
+      "G",
+      "GG"
+    ],
+    "cat": "greek"
+  },
+  "Δ": {
+    "abbrevs": [
+      "Delta",
+      "D",
+      "GD"
+    ],
+    "cat": "greek"
+  },
+  "Ε": {
+    "abbrevs": [
+      "Epsilon",
+      "GE"
+    ],
+    "cat": "greek"
+  },
+  "Ζ": {
+    "abbrevs": [
+      "Zeta",
+      "GZ"
+    ],
+    "cat": "greek"
+  },
+  "Η": {
+    "abbrevs": [
+      "Eta"
+    ],
+    "cat": "greek"
+  },
+  "Θ": {
+    "abbrevs": [
+      "Theta",
+      "GTH"
+    ],
+    "cat": "greek"
+  },
+  "Ι": {
+    "abbrevs": [
+      "Iota",
+      "GI"
+    ],
+    "cat": "greek"
+  },
+  "Κ": {
+    "abbrevs": [
+      "GK",
+      "Kappa"
+    ],
+    "cat": "greek"
+  },
+  "Λ": {
+    "abbrevs": [
+      "L",
+      "GL",
+      "Lambda",
+      "Lamda"
+    ],
+    "cat": "greek"
+  },
+  "Μ": {
+    "abbrevs": [
+      "GM"
+    ],
+    "cat": "greek"
+  },
+  "Ν": {
+    "abbrevs": [
+      "GN",
+      "Nu"
+    ],
+    "cat": "greek"
+  },
+  "Ξ": {
+    "abbrevs": [
+      "GX",
+      "Xi"
+    ],
+    "cat": "greek"
+  },
+  "Ο": {
+    "abbrevs": [
+      "Omicron"
+    ],
+    "cat": "greek"
+  },
+  "Π": {
+    "abbrevs": [
+      "p",
+      "P",
+      "Pi"
+    ],
+    "cat": "greek"
+  },
+  "Π₀": {
+    "abbrevs": [
+      "Pi0",
+      "P0",
+      "Pi_0",
+      "P_0"
+    ],
+    "cat": "greek"
+  },
+  "Ρ": {
+    "abbrevs": [
+      "GR",
+      "Rho"
+    ],
+    "cat": "greek"
+  },
+  "Σ": {
+    "abbrevs": [
+      "S",
+      "GS",
+      "Sigma"
+    ],
+    "cat": "greek"
+  },
+  "Τ": {
+    "abbrevs": [
+      "Tau",
+      "GT"
+    ],
+    "cat": "greek"
+  },
+  "Υ": {
+    "abbrevs": [
+      "Upsilon",
+      "GU"
+    ],
+    "cat": "greek"
+  },
+  "Φ": {
+    "abbrevs": [
+      "GF",
+      "Phi"
+    ],
+    "cat": "greek"
+  },
+  "Χ": {
+    "abbrevs": [
+      "GC",
+      "Chi"
+    ],
+    "cat": "greek"
+  },
+  "Ψ": {
+    "abbrevs": [
+      "GP",
+      "Psi"
+    ],
+    "cat": "greek"
+  },
+  "Ω": {
+    "abbrevs": [
+      "ohm",
+      "Omega",
+      "GO"
+    ],
+    "cat": "greek"
+  },
+  "Ͱ": {
+    "abbrevs": [
+      "Heta"
+    ],
+    "cat": "greek"
+  },
+  "ͱ": {
+    "abbrevs": [
+      "heta"
+    ],
+    "cat": "greek"
+  },
+  "Ϳ": {
+    "abbrevs": [
+      "Yot"
+    ],
+    "cat": "greek"
+  },
+  "ϐ": {
+    "abbrevs": [
+      "varbeta"
+    ],
+    "cat": "greek"
+  },
+  "ϑ": {
+    "abbrevs": [
+      "vartheta"
+    ],
+    "cat": "greek"
+  },
+  "ϕ": {
+    "abbrevs": [
+      "varphi"
+    ],
+    "cat": "greek"
+  },
+  "ϖ": {
+    "abbrevs": [
+      "varpi"
+    ],
+    "cat": "greek"
+  },
+  "ϗ": {
+    "abbrevs": [
+      "varkai"
+    ],
+    "cat": "greek"
+  },
+  "Ϛ": {
+    "abbrevs": [
+      "Stigma"
+    ],
+    "cat": "greek"
+  },
+  "ϛ": {
+    "abbrevs": [
+      "stigma"
+    ],
+    "cat": "greek"
+  },
+  "Ϝ": {
+    "abbrevs": [
+      "Digamma"
+    ],
+    "cat": "greek"
+  },
+  "ϝ": {
+    "abbrevs": [
+      "digamma"
+    ],
+    "cat": "greek"
+  },
+  "Ϟ": {
+    "abbrevs": [
+      "Koppa"
+    ],
+    "cat": "greek"
+  },
+  "ϟ": {
+    "abbrevs": [
+      "koppa"
+    ],
+    "cat": "greek"
+  },
+  "Ϡ": {
+    "abbrevs": [
+      "Sampi"
+    ],
+    "cat": "greek"
+  },
+  "ϡ": {
+    "abbrevs": [
+      "sampi"
+    ],
+    "cat": "greek"
+  },
+  "Ϣ": {
+    "abbrevs": [
+      "Shei"
+    ],
+    "cat": "greek"
+  },
+  "ϣ": {
+    "abbrevs": [
+      "shei"
+    ],
+    "cat": "greek"
+  },
+  "Ϥ": {
+    "abbrevs": [
+      "Fei"
+    ],
+    "cat": "greek"
+  },
+  "ϥ": {
+    "abbrevs": [
+      "fei"
+    ],
+    "cat": "greek"
+  },
+  "Ϧ": {
+    "abbrevs": [
+      "Khei"
+    ],
+    "cat": "greek"
+  },
+  "ϧ": {
+    "abbrevs": [
+      "khei"
+    ],
+    "cat": "greek"
+  },
+  "Ϩ": {
+    "abbrevs": [
+      "Hori"
+    ],
+    "cat": "greek"
+  },
+  "ϩ": {
+    "abbrevs": [
+      "hori"
+    ],
+    "cat": "greek"
+  },
+  "Ϫ": {
+    "abbrevs": [
+      "Gangia"
+    ],
+    "cat": "greek"
+  },
+  "ϫ": {
+    "abbrevs": [
+      "gangia"
+    ],
+    "cat": "greek"
+  },
+  "Ϭ": {
+    "abbrevs": [
+      "Shima"
+    ],
+    "cat": "greek"
+  },
+  "ϭ": {
+    "abbrevs": [
+      "shima"
+    ],
+    "cat": "greek"
+  },
+  "Ϯ": {
+    "abbrevs": [
+      "Dei"
+    ],
+    "cat": "greek"
+  },
+  "ϯ": {
+    "abbrevs": [
+      "dei"
+    ],
+    "cat": "greek"
+  },
+  "ϰ": {
+    "abbrevs": [
+      "varkappa"
+    ],
+    "cat": "greek"
+  },
+  "ϱ": {
+    "abbrevs": [
+      "varrho"
+    ],
+    "cat": "greek"
+  },
+  "Ϸ": {
+    "abbrevs": [
+      "Sho"
+    ],
+    "cat": "greek"
+  },
+  "ϸ": {
+    "abbrevs": [
+      "sho"
+    ],
+    "cat": "greek"
+  },
+  "Ϻ": {
+    "abbrevs": [
+      "San"
+    ],
+    "cat": "greek"
+  },
+  "ϻ": {
+    "abbrevs": [
+      "san"
+    ],
+    "cat": "greek"
+  },
+  "À": {
+    "abbrevs": [
+      "`A"
+    ],
+    "cat": "latin"
+  },
+  "Á": {
+    "abbrevs": [
+      "'A"
+    ],
+    "cat": "latin"
+  },
+  "Â": {
+    "abbrevs": [
+      "^{A}"
+    ],
+    "cat": "latin"
+  },
+  "Ã": {
+    "abbrevs": [
+      "~A"
+    ],
+    "cat": "latin"
+  },
+  "Ä": {
+    "abbrevs": [
+      "\"A"
+    ],
+    "cat": "latin"
+  },
+  "Å": {
+    "abbrevs": [
+      "angstrom",
+      "AA"
+    ],
+    "cat": "latin"
+  },
+  "Æ": {
+    "abbrevs": [
+      "AE"
+    ],
+    "cat": "latin"
+  },
+  "Ç": {
+    "abbrevs": [
+      "cC"
+    ],
+    "cat": "latin"
+  },
+  "È": {
+    "abbrevs": [
+      "`E"
+    ],
+    "cat": "latin"
+  },
+  "É": {
+    "abbrevs": [
+      "'E"
+    ],
+    "cat": "latin"
+  },
+  "Ê": {
+    "abbrevs": [
+      "^{E}"
+    ],
+    "cat": "latin"
+  },
+  "Ë": {
+    "abbrevs": [
+      "\"E"
+    ],
+    "cat": "latin"
+  },
+  "Ì": {
+    "abbrevs": [
+      "`I"
+    ],
+    "cat": "latin"
+  },
+  "Í": {
+    "abbrevs": [
+      "'I"
+    ],
+    "cat": "latin"
+  },
+  "Î": {
+    "abbrevs": [
+      "^{I}"
+    ],
+    "cat": "latin"
+  },
+  "Ï": {
+    "abbrevs": [
+      "\"I"
+    ],
+    "cat": "latin"
+  },
+  "Ð": {
+    "abbrevs": [
+      "DH"
+    ],
+    "cat": "latin"
+  },
+  "Ñ": {
+    "abbrevs": [
+      "~N"
+    ],
+    "cat": "latin"
+  },
+  "Ò": {
+    "abbrevs": [
+      "`O"
+    ],
+    "cat": "latin"
+  },
+  "Ó": {
+    "abbrevs": [
+      "'O"
+    ],
+    "cat": "latin"
+  },
+  "Ô": {
+    "abbrevs": [
+      "^{O}"
+    ],
+    "cat": "latin"
+  },
+  "Õ": {
+    "abbrevs": [
+      "~O"
+    ],
+    "cat": "latin"
+  },
+  "Ö": {
+    "abbrevs": [
+      "\"O"
+    ],
+    "cat": "latin"
+  },
+  "Ù": {
+    "abbrevs": [
+      "`U"
+    ],
+    "cat": "latin"
+  },
+  "Ú": {
+    "abbrevs": [
+      "'U"
+    ],
+    "cat": "latin"
+  },
+  "Û": {
+    "abbrevs": [
+      "^{U}"
+    ],
+    "cat": "latin"
+  },
+  "Ü": {
+    "abbrevs": [
+      "\"U"
+    ],
+    "cat": "latin"
+  },
+  "Ý": {
+    "abbrevs": [
+      "'Y"
+    ],
+    "cat": "latin"
+  },
+  "Þ": {
+    "abbrevs": [
+      "TH"
+    ],
+    "cat": "latin"
+  },
+  "à": {
+    "abbrevs": [
+      "`a"
+    ],
+    "cat": "latin"
+  },
+  "á": {
+    "abbrevs": [
+      "'a"
+    ],
+    "cat": "latin"
+  },
+  "â": {
+    "abbrevs": [
+      "^{a}"
+    ],
+    "cat": "latin"
+  },
+  "ã": {
+    "abbrevs": [
+      "~a"
+    ],
+    "cat": "latin"
+  },
+  "ä": {
+    "abbrevs": [
+      "\"a"
+    ],
+    "cat": "latin"
+  },
+  "å": {
+    "abbrevs": [
+      "aa"
+    ],
+    "cat": "latin"
+  },
+  "æ": {
+    "abbrevs": [
+      "ae"
+    ],
+    "cat": "latin"
+  },
+  "ç": {
+    "abbrevs": [
+      "cc"
+    ],
+    "cat": "latin"
+  },
+  "è": {
+    "abbrevs": [
+      "`e"
+    ],
+    "cat": "latin"
+  },
+  "é": {
+    "abbrevs": [
+      "'e"
+    ],
+    "cat": "latin"
+  },
+  "ê": {
+    "abbrevs": [
+      "^{e}"
+    ],
+    "cat": "latin"
+  },
+  "ë": {
+    "abbrevs": [
+      "\"e"
+    ],
+    "cat": "latin"
+  },
+  "ì": {
+    "abbrevs": [
+      "`i"
+    ],
+    "cat": "latin"
+  },
+  "í": {
+    "abbrevs": [
+      "'i"
+    ],
+    "cat": "latin"
+  },
+  "î": {
+    "abbrevs": [
+      "^{i}"
+    ],
+    "cat": "latin"
+  },
+  "ï": {
+    "abbrevs": [
+      "\"i"
+    ],
+    "cat": "latin"
+  },
+  "ð": {
+    "abbrevs": [
+      "dh"
+    ],
+    "cat": "latin"
+  },
+  "ñ": {
+    "abbrevs": [
+      "~{n}"
+    ],
+    "cat": "latin"
+  },
+  "ò": {
+    "abbrevs": [
+      "`o"
+    ],
+    "cat": "latin"
+  },
+  "ó": {
+    "abbrevs": [
+      "'o"
+    ],
+    "cat": "latin"
+  },
+  "ô": {
+    "abbrevs": [
+      "^{o}"
+    ],
+    "cat": "latin"
+  },
+  "õ": {
+    "abbrevs": [
+      "~o"
+    ],
+    "cat": "latin"
+  },
+  "ö": {
+    "abbrevs": [
+      "\"o"
+    ],
+    "cat": "latin"
+  },
+  "ø": {
+    "abbrevs": [
+      "/o"
+    ],
+    "cat": "latin"
+  },
+  "ù": {
+    "abbrevs": [
+      "`u"
+    ],
+    "cat": "latin"
+  },
+  "ú": {
+    "abbrevs": [
+      "'u"
+    ],
+    "cat": "latin"
+  },
+  "û": {
+    "abbrevs": [
+      "^{u}"
+    ],
+    "cat": "latin"
+  },
+  "ü": {
+    "abbrevs": [
+      "\"u"
+    ],
+    "cat": "latin"
+  },
+  "ý": {
+    "abbrevs": [
+      "'y"
+    ],
+    "cat": "latin"
+  },
+  "ÿ": {
+    "abbrevs": [
+      "\"y"
+    ],
+    "cat": "latin"
+  },
+  "Ā": {
+    "abbrevs": [
+      "-{A}"
+    ],
+    "cat": "latin"
+  },
+  "ā": {
+    "abbrevs": [
+      "-{a}"
+    ],
+    "cat": "latin"
+  },
+  "Č": {
+    "abbrevs": [
+      "vC"
+    ],
+    "cat": "latin"
+  },
+  "č": {
+    "abbrevs": [
+      "vc"
+    ],
+    "cat": "latin"
+  },
+  "Ď": {
+    "abbrevs": [
+      "vD"
+    ],
+    "cat": "latin"
+  },
+  "ď": {
+    "abbrevs": [
+      "vd"
+    ],
+    "cat": "latin"
+  },
+  "Ē": {
+    "abbrevs": [
+      "-{E}"
+    ],
+    "cat": "latin"
+  },
+  "ē": {
+    "abbrevs": [
+      "-{e}"
+    ],
+    "cat": "latin"
+  },
+  "Ě": {
+    "abbrevs": [
+      "vE"
+    ],
+    "cat": "latin"
+  },
+  "ě": {
+    "abbrevs": [
+      "ve"
+    ],
+    "cat": "latin"
+  },
+  "Ī": {
+    "abbrevs": [
+      "-{I}"
+    ],
+    "cat": "latin"
+  },
+  "ī": {
+    "abbrevs": [
+      "-{i}"
+    ],
+    "cat": "latin"
+  },
+  "Į": {
+    "abbrevs": [
+      "kI"
+    ],
+    "cat": "latin"
+  },
+  "į": {
+    "abbrevs": [
+      "ki"
+    ],
+    "cat": "latin"
+  },
+  "ı": {
+    "abbrevs": [
+      "imath"
+    ],
+    "cat": "latin"
+  },
+  "Ł": {
+    "abbrevs": [
+      "/L"
+    ],
+    "cat": "latin"
+  },
+  "Ō": {
+    "abbrevs": [
+      "-{O}"
+    ],
+    "cat": "latin"
+  },
+  "ō": {
+    "abbrevs": [
+      "-{o}"
+    ],
+    "cat": "latin"
+  },
+  "Œ": {
+    "abbrevs": [
+      "OE"
+    ],
+    "cat": "latin"
+  },
+  "œ": {
+    "abbrevs": [
+      "oe"
+    ],
+    "cat": "latin"
+  },
+  "Ū": {
+    "abbrevs": [
+      "-{U}"
+    ],
+    "cat": "latin"
+  },
+  "ū": {
+    "abbrevs": [
+      "-{u}"
+    ],
+    "cat": "latin"
+  },
+  "ƛ": {
+    "abbrevs": [
+      "Gl-"
+    ],
+    "cat": "greek"
+  },
+  "ȩ": {
+    "abbrevs": [
+      "ce"
+    ],
+    "cat": "latin"
+  },
+  "₍": {
+    "abbrevs": [
+      "_("
+    ],
+    "cat": "altscript"
+  },
+  "₎": {
+    "abbrevs": [
+      "_)"
+    ],
+    "cat": "altscript"
+  },
+  "₊": {
+    "abbrevs": [
+      "_+"
+    ],
+    "cat": "altscript"
+  },
+  "₋": {
+    "abbrevs": [
+      "_-"
+    ],
+    "cat": "altscript"
+  },
+  "̲": {
+    "abbrevs": [
+      "_--"
+    ],
+    "cat": "altscript"
+  },
+  "₌": {
+    "abbrevs": [
+      "_="
+    ],
+    "cat": "altscript"
+  },
+  "ₐ": {
+    "abbrevs": [
+      "_a"
+    ],
+    "cat": "altscript"
+  },
+  "ₑ": {
+    "abbrevs": [
+      "_e"
+    ],
+    "cat": "altscript"
+  },
+  "ₕ": {
+    "abbrevs": [
+      "_h"
+    ],
+    "cat": "altscript"
+  },
+  "ᵢ": {
+    "abbrevs": [
+      "_i"
+    ],
+    "cat": "altscript"
+  },
+  "ⱼ": {
+    "abbrevs": [
+      "_j"
+    ],
+    "cat": "altscript"
+  },
+  "ₖ": {
+    "abbrevs": [
+      "_k"
+    ],
+    "cat": "altscript"
+  },
+  "ₗ": {
+    "abbrevs": [
+      "_l"
+    ],
+    "cat": "altscript"
+  },
+  "ₘ": {
+    "abbrevs": [
+      "_m"
+    ],
+    "cat": "altscript"
+  },
+  "ₙ": {
+    "abbrevs": [
+      "_n"
+    ],
+    "cat": "altscript"
+  },
+  "ₒ": {
+    "abbrevs": [
+      "_o"
+    ],
+    "cat": "altscript"
+  },
+  "ₚ": {
+    "abbrevs": [
+      "_p"
+    ],
+    "cat": "altscript"
+  },
+  "ᵣ": {
+    "abbrevs": [
+      "_r"
+    ],
+    "cat": "altscript"
+  },
+  "ₛ": {
+    "abbrevs": [
+      "_s"
+    ],
+    "cat": "altscript"
+  },
+  "ₜ": {
+    "abbrevs": [
+      "_t"
+    ],
+    "cat": "altscript"
+  },
+  "ᵤ": {
+    "abbrevs": [
+      "_u"
+    ],
+    "cat": "altscript"
+  },
+  "ᵥ": {
+    "abbrevs": [
+      "_v"
+    ],
+    "cat": "altscript"
+  },
+  "ₓ": {
+    "abbrevs": [
+      "_x"
+    ],
+    "cat": "altscript"
+  },
+  "⁻¹": {
+    "abbrevs": [
+      "-",
+      "inv",
+      "-1",
+      "^-1",
+      "sy"
+    ],
+    "cat": "altscript"
+  },
+  "⁻²": {
+    "abbrevs": [
+      "-2"
+    ],
+    "cat": "altscript"
+  },
+  "⁻³": {
+    "abbrevs": [
+      "-3"
+    ],
+    "cat": "altscript"
+  },
+  "⁻¹'": {
+    "abbrevs": [
+      "preim",
+      "preimage"
+    ],
+    "cat": "altscript"
+  },
+  "ᵃᵒᵖ": {
+    "abbrevs": [
+      "addopposite",
+      "aop"
+    ],
+    "cat": "altscript"
+  },
+  "ᵐᵒᵖ": {
+    "abbrevs": [
+      "mulopposite",
+      "mop"
+    ],
+    "cat": "altscript"
+  },
+  "ᵒᵈ": {
+    "abbrevs": [
+      "od",
+      "orderdual"
+    ],
+    "cat": "altscript"
+  },
+  "ᵒᵖ": {
+    "abbrevs": [
+      "opposite",
+      "op"
+    ],
+    "cat": "altscript"
+  },
+  "⁽": {
+    "abbrevs": [
+      "^("
+    ],
+    "cat": "altscript"
+  },
+  "⁾": {
+    "abbrevs": [
+      "^)"
+    ],
+    "cat": "altscript"
+  },
+  "⁺": {
+    "abbrevs": [
+      "^+"
+    ],
+    "cat": "altscript"
+  },
+  "⁻": {
+    "abbrevs": [
+      "^-"
+    ],
+    "cat": "altscript"
+  },
+  "⁰": {
+    "abbrevs": [
+      "^0"
+    ],
+    "cat": "altscript"
+  },
+  "¹": {
+    "abbrevs": [
+      "^1"
+    ],
+    "cat": "altscript"
+  },
+  "²": {
+    "abbrevs": [
+      "^2"
+    ],
+    "cat": "altscript"
+  },
+  "³": {
+    "abbrevs": [
+      "^3"
+    ],
+    "cat": "altscript"
+  },
+  "⁴": {
+    "abbrevs": [
+      "^4"
+    ],
+    "cat": "altscript"
+  },
+  "⁵": {
+    "abbrevs": [
+      "^5"
+    ],
+    "cat": "altscript"
+  },
+  "⁶": {
+    "abbrevs": [
+      "^6"
+    ],
+    "cat": "altscript"
+  },
+  "⁷": {
+    "abbrevs": [
+      "^7"
+    ],
+    "cat": "altscript"
+  },
+  "⁸": {
+    "abbrevs": [
+      "^8"
+    ],
+    "cat": "altscript"
+  },
+  "⁹": {
+    "abbrevs": [
+      "^9"
+    ],
+    "cat": "altscript"
+  },
+  "⁼": {
+    "abbrevs": [
+      "^="
+    ],
+    "cat": "altscript"
+  },
+  "ᴬ": {
+    "abbrevs": [
+      "^A"
+    ],
+    "cat": "altscript"
+  },
+  "ᴮ": {
+    "abbrevs": [
+      "^B"
+    ],
+    "cat": "altscript"
+  },
+  "ᴰ": {
+    "abbrevs": [
+      "^D"
+    ],
+    "cat": "altscript"
+  },
+  "ᴱ": {
+    "abbrevs": [
+      "^E"
+    ],
+    "cat": "altscript"
+  },
+  "ᴳ": {
+    "abbrevs": [
+      "^G"
+    ],
+    "cat": "altscript"
+  },
+  "ᴴ": {
+    "abbrevs": [
+      "^H"
+    ],
+    "cat": "altscript"
+  },
+  "ᴵ": {
+    "abbrevs": [
+      "^I"
+    ],
+    "cat": "altscript"
+  },
+  "ᴶ": {
+    "abbrevs": [
+      "^J"
+    ],
+    "cat": "altscript"
+  },
+  "ᴷ": {
+    "abbrevs": [
+      "^K"
+    ],
+    "cat": "altscript"
+  },
+  "ᴸ": {
+    "abbrevs": [
+      "^L"
+    ],
+    "cat": "altscript"
+  },
+  "ᴹ": {
+    "abbrevs": [
+      "^M"
+    ],
+    "cat": "altscript"
+  },
+  "ᴺ": {
+    "abbrevs": [
+      "^N"
+    ],
+    "cat": "altscript"
+  },
+  "ᴼ": {
+    "abbrevs": [
+      "^O"
+    ],
+    "cat": "altscript"
+  },
+  "ᴾ": {
+    "abbrevs": [
+      "^P"
+    ],
+    "cat": "altscript"
+  },
+  "ᴿ": {
+    "abbrevs": [
+      "^R"
+    ],
+    "cat": "altscript"
+  },
+  "ᵀ": {
+    "abbrevs": [
+      "^T"
+    ],
+    "cat": "altscript"
+  },
+  "ᵁ": {
+    "abbrevs": [
+      "^U"
+    ],
+    "cat": "altscript"
+  },
+  "ⱽ": {
+    "abbrevs": [
+      "^V"
+    ],
+    "cat": "altscript"
+  },
+  "ᵂ": {
+    "abbrevs": [
+      "^W"
+    ],
+    "cat": "altscript"
+  },
+  "ᵃ": {
+    "abbrevs": [
+      "^a"
+    ],
+    "cat": "altscript"
+  },
+  "ᵇ": {
+    "abbrevs": [
+      "^b"
+    ],
+    "cat": "altscript"
+  },
+  "ᵈ": {
+    "abbrevs": [
+      "^d"
+    ],
+    "cat": "altscript"
+  },
+  "ᵉ": {
+    "abbrevs": [
+      "^e"
+    ],
+    "cat": "altscript"
+  },
+  "ᶠ": {
+    "abbrevs": [
+      "^f"
+    ],
+    "cat": "altscript"
+  },
+  "ᵍ": {
+    "abbrevs": [
+      "^g"
+    ],
+    "cat": "altscript"
+  },
+  "ʰ": {
+    "abbrevs": [
+      "^h"
+    ],
+    "cat": "altscript"
+  },
+  "ⁱ": {
+    "abbrevs": [
+      "^i"
+    ],
+    "cat": "altscript"
+  },
+  "ʲ": {
+    "abbrevs": [
+      "^j"
+    ],
+    "cat": "altscript"
+  },
+  "ᵏ": {
+    "abbrevs": [
+      "^k"
+    ],
+    "cat": "altscript"
+  },
+  "ˡ": {
+    "abbrevs": [
+      "^l"
+    ],
+    "cat": "altscript"
+  },
+  "ᵐ": {
+    "abbrevs": [
+      "^m"
+    ],
+    "cat": "altscript"
+  },
+  "ⁿ": {
+    "abbrevs": [
+      "^n"
+    ],
+    "cat": "altscript"
+  },
+  "ᵒ": {
+    "abbrevs": [
+      "^o"
+    ],
+    "cat": "altscript"
+  },
+  "ᵖ": {
+    "abbrevs": [
+      "^p"
+    ],
+    "cat": "altscript"
+  },
+  "ʳ": {
+    "abbrevs": [
+      "^r"
+    ],
+    "cat": "altscript"
+  },
+  "ˢ": {
+    "abbrevs": [
+      "^s"
+    ],
+    "cat": "altscript"
+  },
+  "ᵗ": {
+    "abbrevs": [
+      "^t"
+    ],
+    "cat": "altscript"
+  },
+  "ᵘ": {
+    "abbrevs": [
+      "^u"
+    ],
+    "cat": "altscript"
+  },
+  "ᵛ": {
+    "abbrevs": [
+      "^v"
+    ],
+    "cat": "altscript"
+  },
+  "ʷ": {
+    "abbrevs": [
+      "^w"
+    ],
+    "cat": "altscript"
+  },
+  "ˣ": {
+    "abbrevs": [
+      "^x"
+    ],
+    "cat": "altscript"
+  },
+  "ʸ": {
+    "abbrevs": [
+      "^y"
+    ],
+    "cat": "altscript"
+  },
+  "ᶻ": {
+    "abbrevs": [
+      "^z"
+    ],
+    "cat": "altscript"
+  },
+  "℠": {
+    "abbrevs": [
+      "^SM"
+    ],
+    "cat": "altscript"
+  },
+  "™": {
+    "abbrevs": [
+      "^TM"
+    ],
+    "cat": "altscript"
+  },
+  "ʱ": {
+    "abbrevs": [
+      "^hhook",
+      "^hwithhook"
+    ],
+    "cat": "altscript"
+  },
+  "ʴ": {
+    "abbrevs": [
+      "^turnedr"
+    ],
+    "cat": "altscript"
+  },
+  "ʵ": {
+    "abbrevs": [
+      "^turnedrhook",
+      "^turnedrwithhook"
+    ],
+    "cat": "altscript"
+  },
+  "ʶ": {
+    "abbrevs": [
+      "^Rinverted"
+    ],
+    "cat": "altscript"
+  },
+  "ˠ": {
+    "abbrevs": [
+      "^gamma"
+    ],
+    "cat": "altscript"
+  },
+  "ˤ": {
+    "abbrevs": [
+      "^stop"
+    ],
+    "cat": "altscript"
+  },
+  "ᴭ": {
+    "abbrevs": [
+      "^Ae"
+    ],
+    "cat": "altscript"
+  },
+  "ᴯ": {
+    "abbrevs": [
+      "^Bbarred"
+    ],
+    "cat": "altscript"
+  },
+  "ᴲ": {
+    "abbrevs": [
+      "^Ereversed"
+    ],
+    "cat": "altscript"
+  },
+  "ᴻ": {
+    "abbrevs": [
+      "^Nreversed"
+    ],
+    "cat": "altscript"
+  },
+  "ᴽ": {
+    "abbrevs": [
+      "^Ou"
+    ],
+    "cat": "altscript"
+  },
+  "ᵄ": {
+    "abbrevs": [
+      "^turneda"
+    ],
+    "cat": "altscript"
+  },
+  "ᵅ": {
+    "abbrevs": [
+      "^alpha"
+    ],
+    "cat": "altscript"
+  },
+  "ᵆ": {
+    "abbrevs": [
+      "^turnedae"
+    ],
+    "cat": "altscript"
+  },
+  "ᵊ": {
+    "abbrevs": [
+      "^schwa"
+    ],
+    "cat": "altscript"
+  },
+  "ᵋ": {
+    "abbrevs": [
+      "^eopen"
+    ],
+    "cat": "altscript"
+  },
+  "ᵌ": {
+    "abbrevs": [
+      "^turnede"
+    ],
+    "cat": "altscript"
+  },
+  "ᵎ": {
+    "abbrevs": [
+      "^turnedi"
+    ],
+    "cat": "altscript"
+  },
+  "ᵑ": {
+    "abbrevs": [
+      "^eng"
+    ],
+    "cat": "altscript"
+  },
+  "ᵓ": {
+    "abbrevs": [
+      "^oopen"
+    ],
+    "cat": "altscript"
+  },
+  "ᵔ": {
+    "abbrevs": [
+      "^otop"
+    ],
+    "cat": "altscript"
+  },
+  "ᵕ": {
+    "abbrevs": [
+      "^obottom"
+    ],
+    "cat": "altscript"
+  },
+  "ᵙ": {
+    "abbrevs": [
+      "^usideways"
+    ],
+    "cat": "altscript"
+  },
+  "ᵚ": {
+    "abbrevs": [
+      "^turnedm"
+    ],
+    "cat": "altscript"
+  },
+  "ᵜ": {
+    "abbrevs": [
+      "^ain"
+    ],
+    "cat": "altscript"
+  },
+  "ᵝ": {
+    "abbrevs": [
+      "^beta"
+    ],
+    "cat": "altscript"
+  },
+  "ᵞ": {
+    "abbrevs": [
+      "^vargamma"
+    ],
+    "cat": "altscript"
+  },
+  "ᵠ": {
+    "abbrevs": [
+      "^varphi"
+    ],
+    "cat": "altscript"
+  },
+  "ᵡ": {
+    "abbrevs": [
+      "^chi"
+    ],
+    "cat": "altscript"
+  },
+  "ᶛ": {
+    "abbrevs": [
+      "^turnedalpha"
+    ],
+    "cat": "altscript"
+  },
+  "ᶝ": {
+    "abbrevs": [
+      "^ccurl"
+    ],
+    "cat": "altscript"
+  },
+  "ᶞ": {
+    "abbrevs": [
+      "^eth"
+    ],
+    "cat": "altscript"
+  },
+  "ᶟ": {
+    "abbrevs": [
+      "^ereversedopen"
+    ],
+    "cat": "altscript"
+  },
+  "ᶢ": {
+    "abbrevs": [
+      "^gscript"
+    ],
+    "cat": "altscript"
+  },
+  "ᶣ": {
+    "abbrevs": [
+      "^turnedh"
+    ],
+    "cat": "altscript"
+  },
+  "ᶤ": {
+    "abbrevs": [
+      "^istroke"
+    ],
+    "cat": "altscript"
+  },
+  "ᶥ": {
+    "abbrevs": [
+      "^iota"
+    ],
+    "cat": "altscript"
+  },
+  "ᶦ": {
+    "abbrevs": [
+      "^Ismall"
+    ],
+    "cat": "altscript"
+  },
+  "ᶧ": {
+    "abbrevs": [
+      "^Istroke"
+    ],
+    "cat": "altscript"
+  },
+  "ᶨ": {
+    "abbrevs": [
+      "^jtail"
+    ],
+    "cat": "altscript"
+  },
+  "ᶩ": {
+    "abbrevs": [
+      "^lretroflexhook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶪ": {
+    "abbrevs": [
+      "^lhook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶫ": {
+    "abbrevs": [
+      "^Lsmall"
+    ],
+    "cat": "altscript"
+  },
+  "ᶬ": {
+    "abbrevs": [
+      "^mhook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶭ": {
+    "abbrevs": [
+      "^turnedmleg"
+    ],
+    "cat": "altscript"
+  },
+  "ᶮ": {
+    "abbrevs": [
+      "^nlefthook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶯ": {
+    "abbrevs": [
+      "^nretroflexhook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶰ": {
+    "abbrevs": [
+      "^Nsmall"
+    ],
+    "cat": "altscript"
+  },
+  "ᶱ": {
+    "abbrevs": [
+      "^obarred"
+    ],
+    "cat": "altscript"
+  },
+  "ᶲ": {
+    "abbrevs": [
+      "^phi"
+    ],
+    "cat": "altscript"
+  },
+  "ᶳ": {
+    "abbrevs": [
+      "^shook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶴ": {
+    "abbrevs": [
+      "^esh"
+    ],
+    "cat": "altscript"
+  },
+  "ᶵ": {
+    "abbrevs": [
+      "^twithpalatalhook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶶ": {
+    "abbrevs": [
+      "^ubar"
+    ],
+    "cat": "altscript"
+  },
+  "ᶷ": {
+    "abbrevs": [
+      "^upsilon"
+    ],
+    "cat": "altscript"
+  },
+  "ᶸ": {
+    "abbrevs": [
+      "^Usmall"
+    ],
+    "cat": "altscript"
+  },
+  "ᶹ": {
+    "abbrevs": [
+      "^vhook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶺ": {
+    "abbrevs": [
+      "^turnedv"
+    ],
+    "cat": "altscript"
+  },
+  "ᶼ": {
+    "abbrevs": [
+      "^zretroflexhook"
+    ],
+    "cat": "altscript"
+  },
+  "ᶽ": {
+    "abbrevs": [
+      "^zcurl"
+    ],
+    "cat": "altscript"
+  },
+  "ᶾ": {
+    "abbrevs": [
+      "^ezh"
+    ],
+    "cat": "altscript"
+  },
+  "ᶿ": {
+    "abbrevs": [
+      "^theta"
+    ],
+    "cat": "altscript"
+  },
+  "₀": {
+    "abbrevs": [
+      "0",
+      "_0"
+    ],
+    "cat": "altscript"
+  },
+  "₁": {
+    "abbrevs": [
+      "1",
+      "_1"
+    ],
+    "cat": "altscript"
+  },
+  "₂": {
+    "abbrevs": [
+      "2",
+      "_2"
+    ],
+    "cat": "altscript"
+  },
+  "₃": {
+    "abbrevs": [
+      "3",
+      "_3"
+    ],
+    "cat": "altscript"
+  },
+  "₄": {
+    "abbrevs": [
+      "4",
+      "_4"
+    ],
+    "cat": "altscript"
+  },
+  "₅": {
+    "abbrevs": [
+      "5",
+      "_5"
+    ],
+    "cat": "altscript"
+  },
+  "₆": {
+    "abbrevs": [
+      "6",
+      "_6"
+    ],
+    "cat": "altscript"
+  },
+  "₇": {
+    "abbrevs": [
+      "7",
+      "_7"
+    ],
+    "cat": "altscript"
+  },
+  "₈": {
+    "abbrevs": [
+      "8",
+      "_8"
+    ],
+    "cat": "altscript"
+  },
+  "₉": {
+    "abbrevs": [
+      "9",
+      "_9"
+    ],
+    "cat": "altscript"
+  },
+  "ꭜ": {
+    "abbrevs": [
+      "^heng"
+    ],
+    "cat": "altscript"
+  },
+  "ꭝ": {
+    "abbrevs": [
+      "^ls"
+    ],
+    "cat": "altscript"
+  },
+  "ꭞ": {
+    "abbrevs": [
+      "^ltilde"
+    ],
+    "cat": "altscript"
+  },
+  "ꭟ": {
+    "abbrevs": [
+      "^uhook"
+    ],
+    "cat": "altscript"
+  },
+  "𝐀": {
+    "abbrevs": [
+      "bfA"
+    ],
+    "cat": "font"
+  },
+  "𝐁": {
+    "abbrevs": [
+      "bfB"
+    ],
+    "cat": "font"
+  },
+  "𝐂": {
+    "abbrevs": [
+      "bfC"
+    ],
+    "cat": "font"
+  },
+  "𝐃": {
+    "abbrevs": [
+      "bfD"
+    ],
+    "cat": "font"
+  },
+  "𝐄": {
+    "abbrevs": [
+      "bfE"
+    ],
+    "cat": "font"
+  },
+  "𝐅": {
+    "abbrevs": [
+      "bfF"
+    ],
+    "cat": "font"
+  },
+  "𝐆": {
+    "abbrevs": [
+      "bfG"
+    ],
+    "cat": "font"
+  },
+  "𝐇": {
+    "abbrevs": [
+      "bfH"
+    ],
+    "cat": "font"
+  },
+  "𝐈": {
+    "abbrevs": [
+      "bfI"
+    ],
+    "cat": "font"
+  },
+  "𝐉": {
+    "abbrevs": [
+      "bfJ"
+    ],
+    "cat": "font"
+  },
+  "𝐊": {
+    "abbrevs": [
+      "bfK"
+    ],
+    "cat": "font"
+  },
+  "𝐋": {
+    "abbrevs": [
+      "bfL"
+    ],
+    "cat": "font"
+  },
+  "𝐌": {
+    "abbrevs": [
+      "bfM"
+    ],
+    "cat": "font"
+  },
+  "𝐍": {
+    "abbrevs": [
+      "bfN"
+    ],
+    "cat": "font"
+  },
+  "𝐎": {
+    "abbrevs": [
+      "bfO"
+    ],
+    "cat": "font"
+  },
+  "𝐏": {
+    "abbrevs": [
+      "bfP"
+    ],
+    "cat": "font"
+  },
+  "𝐐": {
+    "abbrevs": [
+      "bfQ"
+    ],
+    "cat": "font"
+  },
+  "𝐑": {
+    "abbrevs": [
+      "bfR"
+    ],
+    "cat": "font"
+  },
+  "𝐒": {
+    "abbrevs": [
+      "bfS"
+    ],
+    "cat": "font"
+  },
+  "𝐓": {
+    "abbrevs": [
+      "bfT"
+    ],
+    "cat": "font"
+  },
+  "𝐔": {
+    "abbrevs": [
+      "bfU"
+    ],
+    "cat": "font"
+  },
+  "𝐕": {
+    "abbrevs": [
+      "bfV"
+    ],
+    "cat": "font"
+  },
+  "𝐖": {
+    "abbrevs": [
+      "bfW"
+    ],
+    "cat": "font"
+  },
+  "𝐗": {
+    "abbrevs": [
+      "bfX"
+    ],
+    "cat": "font"
+  },
+  "𝐘": {
+    "abbrevs": [
+      "bfY"
+    ],
+    "cat": "font"
+  },
+  "𝐙": {
+    "abbrevs": [
+      "bfZ"
+    ],
+    "cat": "font"
+  },
+  "𝐚": {
+    "abbrevs": [
+      "bfa"
+    ],
+    "cat": "font"
+  },
+  "𝐛": {
+    "abbrevs": [
+      "bfb"
+    ],
+    "cat": "font"
+  },
+  "𝐜": {
+    "abbrevs": [
+      "bfc"
+    ],
+    "cat": "font"
+  },
+  "𝐝": {
+    "abbrevs": [
+      "bfd"
+    ],
+    "cat": "font"
+  },
+  "𝐞": {
+    "abbrevs": [
+      "bfe"
+    ],
+    "cat": "font"
+  },
+  "𝐟": {
+    "abbrevs": [
+      "bff"
+    ],
+    "cat": "font"
+  },
+  "𝐠": {
+    "abbrevs": [
+      "bfg"
+    ],
+    "cat": "font"
+  },
+  "𝐡": {
+    "abbrevs": [
+      "bfh"
+    ],
+    "cat": "font"
+  },
+  "𝐢": {
+    "abbrevs": [
+      "bfi"
+    ],
+    "cat": "font"
+  },
+  "𝐣": {
+    "abbrevs": [
+      "bfj"
+    ],
+    "cat": "font"
+  },
+  "𝐤": {
+    "abbrevs": [
+      "bfk"
+    ],
+    "cat": "font"
+  },
+  "𝐥": {
+    "abbrevs": [
+      "bfl"
+    ],
+    "cat": "font"
+  },
+  "𝐦": {
+    "abbrevs": [
+      "bfm"
+    ],
+    "cat": "font"
+  },
+  "𝐧": {
+    "abbrevs": [
+      "bfn"
+    ],
+    "cat": "font"
+  },
+  "𝐨": {
+    "abbrevs": [
+      "bfo"
+    ],
+    "cat": "font"
+  },
+  "𝐩": {
+    "abbrevs": [
+      "bfp"
+    ],
+    "cat": "font"
+  },
+  "𝐪": {
+    "abbrevs": [
+      "bfq"
+    ],
+    "cat": "font"
+  },
+  "𝐫": {
+    "abbrevs": [
+      "bfr"
+    ],
+    "cat": "font"
+  },
+  "𝐬": {
+    "abbrevs": [
+      "bfs"
+    ],
+    "cat": "font"
+  },
+  "𝐭": {
+    "abbrevs": [
+      "bft"
+    ],
+    "cat": "font"
+  },
+  "𝐮": {
+    "abbrevs": [
+      "bfu"
+    ],
+    "cat": "font"
+  },
+  "𝐯": {
+    "abbrevs": [
+      "bfv"
+    ],
+    "cat": "font"
+  },
+  "𝐰": {
+    "abbrevs": [
+      "bfw"
+    ],
+    "cat": "font"
+  },
+  "𝐱": {
+    "abbrevs": [
+      "bfx"
+    ],
+    "cat": "font"
+  },
+  "𝐲": {
+    "abbrevs": [
+      "bfy"
+    ],
+    "cat": "font"
+  },
+  "𝐳": {
+    "abbrevs": [
+      "bfz"
+    ],
+    "cat": "font"
+  },
+  "𝐴": {
+    "abbrevs": [
+      "MiA"
+    ],
+    "cat": "font"
+  },
+  "𝐵": {
+    "abbrevs": [
+      "MiB"
+    ],
+    "cat": "font"
+  },
+  "𝐶": {
+    "abbrevs": [
+      "MiC"
+    ],
+    "cat": "font"
+  },
+  "𝐷": {
+    "abbrevs": [
+      "MiD"
+    ],
+    "cat": "font"
+  },
+  "𝐸": {
+    "abbrevs": [
+      "MiE"
+    ],
+    "cat": "font"
+  },
+  "𝐹": {
+    "abbrevs": [
+      "MiF"
+    ],
+    "cat": "font"
+  },
+  "𝐺": {
+    "abbrevs": [
+      "MiG"
+    ],
+    "cat": "font"
+  },
+  "𝐻": {
+    "abbrevs": [
+      "MiH"
+    ],
+    "cat": "font"
+  },
+  "𝐼": {
+    "abbrevs": [
+      "MiI"
+    ],
+    "cat": "font"
+  },
+  "𝐽": {
+    "abbrevs": [
+      "MiJ"
+    ],
+    "cat": "font"
+  },
+  "𝐾": {
+    "abbrevs": [
+      "MiK"
+    ],
+    "cat": "font"
+  },
+  "𝐿": {
+    "abbrevs": [
+      "MiL"
+    ],
+    "cat": "font"
+  },
+  "𝑀": {
+    "abbrevs": [
+      "MiM"
+    ],
+    "cat": "font"
+  },
+  "𝑁": {
+    "abbrevs": [
+      "MiN"
+    ],
+    "cat": "font"
+  },
+  "𝑂": {
+    "abbrevs": [
+      "MiO"
+    ],
+    "cat": "font"
+  },
+  "𝑃": {
+    "abbrevs": [
+      "MiP"
+    ],
+    "cat": "font"
+  },
+  "𝑄": {
+    "abbrevs": [
+      "MiQ"
+    ],
+    "cat": "font"
+  },
+  "𝑅": {
+    "abbrevs": [
+      "MiR"
+    ],
+    "cat": "font"
+  },
+  "𝑆": {
+    "abbrevs": [
+      "MiS"
+    ],
+    "cat": "font"
+  },
+  "𝑇": {
+    "abbrevs": [
+      "MiT"
+    ],
+    "cat": "font"
+  },
+  "𝑈": {
+    "abbrevs": [
+      "MiU"
+    ],
+    "cat": "font"
+  },
+  "𝑉": {
+    "abbrevs": [
+      "MiV"
+    ],
+    "cat": "font"
+  },
+  "𝑊": {
+    "abbrevs": [
+      "MiW"
+    ],
+    "cat": "font"
+  },
+  "𝑋": {
+    "abbrevs": [
+      "MiX"
+    ],
+    "cat": "font"
+  },
+  "𝑌": {
+    "abbrevs": [
+      "MiY"
+    ],
+    "cat": "font"
+  },
+  "𝑍": {
+    "abbrevs": [
+      "MiZ"
+    ],
+    "cat": "font"
+  },
+  "𝑎": {
+    "abbrevs": [
+      "Mia"
+    ],
+    "cat": "font"
+  },
+  "𝑏": {
+    "abbrevs": [
+      "Mib"
+    ],
+    "cat": "font"
+  },
+  "𝑐": {
+    "abbrevs": [
+      "Mic"
+    ],
+    "cat": "font"
+  },
+  "𝑑": {
+    "abbrevs": [
+      "Mid"
+    ],
+    "cat": "font"
+  },
+  "𝑒": {
+    "abbrevs": [
+      "Mie"
+    ],
+    "cat": "font"
+  },
+  "𝑓": {
+    "abbrevs": [
+      "Mif"
+    ],
+    "cat": "font"
+  },
+  "𝑔": {
+    "abbrevs": [
+      "Mig"
+    ],
+    "cat": "font"
+  },
+  "𝑖": {
+    "abbrevs": [
+      "Mii"
+    ],
+    "cat": "font"
+  },
+  "𝑗": {
+    "abbrevs": [
+      "Mij"
+    ],
+    "cat": "font"
+  },
+  "𝑘": {
+    "abbrevs": [
+      "Mik"
+    ],
+    "cat": "font"
+  },
+  "𝑙": {
+    "abbrevs": [
+      "Mil"
+    ],
+    "cat": "font"
+  },
+  "𝑚": {
+    "abbrevs": [
+      "Mim"
+    ],
+    "cat": "font"
+  },
+  "𝑛": {
+    "abbrevs": [
+      "Min"
+    ],
+    "cat": "font"
+  },
+  "𝑜": {
+    "abbrevs": [
+      "Mio"
+    ],
+    "cat": "font"
+  },
+  "𝑝": {
+    "abbrevs": [
+      "Mip"
+    ],
+    "cat": "font"
+  },
+  "𝑞": {
+    "abbrevs": [
+      "Miq"
+    ],
+    "cat": "font"
+  },
+  "𝑟": {
+    "abbrevs": [
+      "Mir"
+    ],
+    "cat": "font"
+  },
+  "𝑠": {
+    "abbrevs": [
+      "Mis"
+    ],
+    "cat": "font"
+  },
+  "𝑡": {
+    "abbrevs": [
+      "Mit"
+    ],
+    "cat": "font"
+  },
+  "𝑢": {
+    "abbrevs": [
+      "Miu"
+    ],
+    "cat": "font"
+  },
+  "𝑣": {
+    "abbrevs": [
+      "Miv"
+    ],
+    "cat": "font"
+  },
+  "𝑤": {
+    "abbrevs": [
+      "Miw"
+    ],
+    "cat": "font"
+  },
+  "𝑥": {
+    "abbrevs": [
+      "Mix"
+    ],
+    "cat": "font"
+  },
+  "𝑦": {
+    "abbrevs": [
+      "Miy"
+    ],
+    "cat": "font"
+  },
+  "𝑧": {
+    "abbrevs": [
+      "Miz"
+    ],
+    "cat": "font"
+  },
+  "𝑨": {
+    "abbrevs": [
+      "MIA"
+    ],
+    "cat": "font"
+  },
+  "𝑩": {
+    "abbrevs": [
+      "MIB"
+    ],
+    "cat": "font"
+  },
+  "𝑪": {
+    "abbrevs": [
+      "MIC"
+    ],
+    "cat": "font"
+  },
+  "𝑫": {
+    "abbrevs": [
+      "MID"
+    ],
+    "cat": "font"
+  },
+  "𝑬": {
+    "abbrevs": [
+      "MIE"
+    ],
+    "cat": "font"
+  },
+  "𝑭": {
+    "abbrevs": [
+      "MIF"
+    ],
+    "cat": "font"
+  },
+  "𝑮": {
+    "abbrevs": [
+      "MIG"
+    ],
+    "cat": "font"
+  },
+  "𝑯": {
+    "abbrevs": [
+      "MIH"
+    ],
+    "cat": "font"
+  },
+  "𝑰": {
+    "abbrevs": [
+      "MII"
+    ],
+    "cat": "font"
+  },
+  "𝑱": {
+    "abbrevs": [
+      "MIJ"
+    ],
+    "cat": "font"
+  },
+  "𝑲": {
+    "abbrevs": [
+      "MIK"
+    ],
+    "cat": "font"
+  },
+  "𝑳": {
+    "abbrevs": [
+      "MIL"
+    ],
+    "cat": "font"
+  },
+  "𝑴": {
+    "abbrevs": [
+      "MIM"
+    ],
+    "cat": "font"
+  },
+  "𝑵": {
+    "abbrevs": [
+      "MIN"
+    ],
+    "cat": "font"
+  },
+  "𝑶": {
+    "abbrevs": [
+      "MIO"
+    ],
+    "cat": "font"
+  },
+  "𝑷": {
+    "abbrevs": [
+      "MIP"
+    ],
+    "cat": "font"
+  },
+  "𝑸": {
+    "abbrevs": [
+      "MIQ"
+    ],
+    "cat": "font"
+  },
+  "𝑹": {
+    "abbrevs": [
+      "MIR"
+    ],
+    "cat": "font"
+  },
+  "𝑺": {
+    "abbrevs": [
+      "MIS"
+    ],
+    "cat": "font"
+  },
+  "𝑻": {
+    "abbrevs": [
+      "MIT"
+    ],
+    "cat": "font"
+  },
+  "𝑼": {
+    "abbrevs": [
+      "MIU"
+    ],
+    "cat": "font"
+  },
+  "𝑽": {
+    "abbrevs": [
+      "MIV"
+    ],
+    "cat": "font"
+  },
+  "𝑾": {
+    "abbrevs": [
+      "MIW"
+    ],
+    "cat": "font"
+  },
+  "𝑿": {
+    "abbrevs": [
+      "MIX"
+    ],
+    "cat": "font"
+  },
+  "𝒀": {
+    "abbrevs": [
+      "MIY"
+    ],
+    "cat": "font"
+  },
+  "𝒁": {
+    "abbrevs": [
+      "MIZ"
+    ],
+    "cat": "font"
+  },
+  "𝒂": {
+    "abbrevs": [
+      "MIa"
+    ],
+    "cat": "font"
+  },
+  "𝒃": {
+    "abbrevs": [
+      "MIb"
+    ],
+    "cat": "font"
+  },
+  "𝒄": {
+    "abbrevs": [
+      "MIc"
+    ],
+    "cat": "font"
+  },
+  "𝒅": {
+    "abbrevs": [
+      "MId"
+    ],
+    "cat": "font"
+  },
+  "𝒆": {
+    "abbrevs": [
+      "MIe"
+    ],
+    "cat": "font"
+  },
+  "𝒇": {
+    "abbrevs": [
+      "MIf"
+    ],
+    "cat": "font"
+  },
+  "𝒈": {
+    "abbrevs": [
+      "MIg"
+    ],
+    "cat": "font"
+  },
+  "𝒉": {
+    "abbrevs": [
+      "MIh"
+    ],
+    "cat": "font"
+  },
+  "𝒊": {
+    "abbrevs": [
+      "MIi"
+    ],
+    "cat": "font"
+  },
+  "𝒋": {
+    "abbrevs": [
+      "MIj"
+    ],
+    "cat": "font"
+  },
+  "𝒌": {
+    "abbrevs": [
+      "MIk"
+    ],
+    "cat": "font"
+  },
+  "𝒍": {
+    "abbrevs": [
+      "MIl"
+    ],
+    "cat": "font"
+  },
+  "𝒎": {
+    "abbrevs": [
+      "MIm"
+    ],
+    "cat": "font"
+  },
+  "𝒏": {
+    "abbrevs": [
+      "MIn"
+    ],
+    "cat": "font"
+  },
+  "𝒐": {
+    "abbrevs": [
+      "MIo"
+    ],
+    "cat": "font"
+  },
+  "𝒑": {
+    "abbrevs": [
+      "MIp"
+    ],
+    "cat": "font"
+  },
+  "𝒒": {
+    "abbrevs": [
+      "MIq"
+    ],
+    "cat": "font"
+  },
+  "𝒓": {
+    "abbrevs": [
+      "MIr"
+    ],
+    "cat": "font"
+  },
+  "𝒔": {
+    "abbrevs": [
+      "MIs"
+    ],
+    "cat": "font"
+  },
+  "𝒕": {
+    "abbrevs": [
+      "MIt"
+    ],
+    "cat": "font"
+  },
+  "𝒖": {
+    "abbrevs": [
+      "MIu"
+    ],
+    "cat": "font"
+  },
+  "𝒗": {
+    "abbrevs": [
+      "MIv"
+    ],
+    "cat": "font"
+  },
+  "𝒘": {
+    "abbrevs": [
+      "MIw"
+    ],
+    "cat": "font"
+  },
+  "𝒙": {
+    "abbrevs": [
+      "MIx"
+    ],
+    "cat": "font"
+  },
+  "𝒚": {
+    "abbrevs": [
+      "MIy"
+    ],
+    "cat": "font"
+  },
+  "𝒛": {
+    "abbrevs": [
+      "MIz"
+    ],
+    "cat": "font"
+  },
+  "𝒜": {
+    "abbrevs": [
+      "McA"
+    ],
+    "cat": "font"
+  },
+  "ℬ": {
+    "abbrevs": [
+      "McB"
+    ],
+    "cat": "font"
+  },
+  "𝒞": {
+    "abbrevs": [
+      "McC"
+    ],
+    "cat": "font"
+  },
+  "𝒟": {
+    "abbrevs": [
+      "McD"
+    ],
+    "cat": "font"
+  },
+  "ℰ": {
+    "abbrevs": [
+      "McE"
+    ],
+    "cat": "font"
+  },
+  "ℱ": {
+    "abbrevs": [
+      "McF"
+    ],
+    "cat": "font"
+  },
+  "𝒢": {
+    "abbrevs": [
+      "McG"
+    ],
+    "cat": "font"
+  },
+  "ℋ": {
+    "abbrevs": [
+      "McH"
+    ],
+    "cat": "font"
+  },
+  "𝒥": {
+    "abbrevs": [
+      "McJ"
+    ],
+    "cat": "font"
+  },
+  "𝒦": {
+    "abbrevs": [
+      "McK"
+    ],
+    "cat": "font"
+  },
+  "ℒ": {
+    "abbrevs": [
+      "McL"
+    ],
+    "cat": "font"
+  },
+  "ℳ": {
+    "abbrevs": [
+      "McM"
+    ],
+    "cat": "font"
+  },
+  "𝒩": {
+    "abbrevs": [
+      "McN"
+    ],
+    "cat": "font"
+  },
+  "𝒪": {
+    "abbrevs": [
+      "McO"
+    ],
+    "cat": "font"
+  },
+  "𝒬": {
+    "abbrevs": [
+      "McQ"
+    ],
+    "cat": "font"
+  },
+  "ℛ": {
+    "abbrevs": [
+      "McR"
+    ],
+    "cat": "font"
+  },
+  "𝒮": {
+    "abbrevs": [
+      "McS"
+    ],
+    "cat": "font"
+  },
+  "𝒯": {
+    "abbrevs": [
+      "McT"
+    ],
+    "cat": "font"
+  },
+  "𝒰": {
+    "abbrevs": [
+      "McU"
+    ],
+    "cat": "font"
+  },
+  "𝒱": {
+    "abbrevs": [
+      "McV"
+    ],
+    "cat": "font"
+  },
+  "𝒲": {
+    "abbrevs": [
+      "McW"
+    ],
+    "cat": "font"
+  },
+  "𝒳": {
+    "abbrevs": [
+      "McX"
+    ],
+    "cat": "font"
+  },
+  "𝒴": {
+    "abbrevs": [
+      "McY"
+    ],
+    "cat": "font"
+  },
+  "𝒵": {
+    "abbrevs": [
+      "McZ"
+    ],
+    "cat": "font"
+  },
+  "𝒶": {
+    "abbrevs": [
+      "Mca"
+    ],
+    "cat": "font"
+  },
+  "𝒷": {
+    "abbrevs": [
+      "Mcb"
+    ],
+    "cat": "font"
+  },
+  "𝒸": {
+    "abbrevs": [
+      "Mcc"
+    ],
+    "cat": "font"
+  },
+  "𝒹": {
+    "abbrevs": [
+      "Mcd"
+    ],
+    "cat": "font"
+  },
+  "ℯ": {
+    "abbrevs": [
+      "Mce"
+    ],
+    "cat": "font"
+  },
+  "𝒻": {
+    "abbrevs": [
+      "Mcf"
+    ],
+    "cat": "font"
+  },
+  "ℊ": {
+    "abbrevs": [
+      "Mcg"
+    ],
+    "cat": "font"
+  },
+  "𝒽": {
+    "abbrevs": [
+      "Mch"
+    ],
+    "cat": "font"
+  },
+  "𝒾": {
+    "abbrevs": [
+      "Mci"
+    ],
+    "cat": "font"
+  },
+  "𝒿": {
+    "abbrevs": [
+      "Mcj"
+    ],
+    "cat": "font"
+  },
+  "𝓀": {
+    "abbrevs": [
+      "Mck"
+    ],
+    "cat": "font"
+  },
+  "𝓁": {
+    "abbrevs": [
+      "Mcl"
+    ],
+    "cat": "font"
+  },
+  "𝓂": {
+    "abbrevs": [
+      "Mcm"
+    ],
+    "cat": "font"
+  },
+  "𝓃": {
+    "abbrevs": [
+      "Mcn"
+    ],
+    "cat": "font"
+  },
+  "ℴ": {
+    "abbrevs": [
+      "Mco"
+    ],
+    "cat": "font"
+  },
+  "𝓅": {
+    "abbrevs": [
+      "Mcp"
+    ],
+    "cat": "font"
+  },
+  "𝓆": {
+    "abbrevs": [
+      "Mcq"
+    ],
+    "cat": "font"
+  },
+  "𝓇": {
+    "abbrevs": [
+      "Mcr"
+    ],
+    "cat": "font"
+  },
+  "𝓈": {
+    "abbrevs": [
+      "Mcs"
+    ],
+    "cat": "font"
+  },
+  "𝓉": {
+    "abbrevs": [
+      "Mct"
+    ],
+    "cat": "font"
+  },
+  "𝓊": {
+    "abbrevs": [
+      "Mcu"
+    ],
+    "cat": "font"
+  },
+  "𝓋": {
+    "abbrevs": [
+      "Mcv"
+    ],
+    "cat": "font"
+  },
+  "𝓌": {
+    "abbrevs": [
+      "Mcw"
+    ],
+    "cat": "font"
+  },
+  "𝓍": {
+    "abbrevs": [
+      "Mcx"
+    ],
+    "cat": "font"
+  },
+  "𝓎": {
+    "abbrevs": [
+      "Mcy"
+    ],
+    "cat": "font"
+  },
+  "𝓏": {
+    "abbrevs": [
+      "Mcz"
+    ],
+    "cat": "font"
+  },
+  "𝓐": {
+    "abbrevs": [
+      "MCA"
+    ],
+    "cat": "font"
+  },
+  "𝓑": {
+    "abbrevs": [
+      "MCB"
+    ],
+    "cat": "font"
+  },
+  "𝓒": {
+    "abbrevs": [
+      "MCC"
+    ],
+    "cat": "font"
+  },
+  "𝓓": {
+    "abbrevs": [
+      "MCD"
+    ],
+    "cat": "font"
+  },
+  "𝓔": {
+    "abbrevs": [
+      "MCE"
+    ],
+    "cat": "font"
+  },
+  "𝓕": {
+    "abbrevs": [
+      "MCF"
+    ],
+    "cat": "font"
+  },
+  "𝓖": {
+    "abbrevs": [
+      "MCG"
+    ],
+    "cat": "font"
+  },
+  "𝓗": {
+    "abbrevs": [
+      "MCH"
+    ],
+    "cat": "font"
+  },
+  "𝓘": {
+    "abbrevs": [
+      "MCI"
+    ],
+    "cat": "font"
+  },
+  "𝓙": {
+    "abbrevs": [
+      "MCJ"
+    ],
+    "cat": "font"
+  },
+  "𝓚": {
+    "abbrevs": [
+      "MCK"
+    ],
+    "cat": "font"
+  },
+  "𝓛": {
+    "abbrevs": [
+      "MCL"
+    ],
+    "cat": "font"
+  },
+  "𝓜": {
+    "abbrevs": [
+      "MCM"
+    ],
+    "cat": "font"
+  },
+  "𝓝": {
+    "abbrevs": [
+      "MCN",
+      "nhds",
+      "nbhds"
+    ],
+    "cat": "font"
+  },
+  "𝓞": {
+    "abbrevs": [
+      "MCO"
+    ],
+    "cat": "font"
+  },
+  "𝓟": {
+    "abbrevs": [
+      "MCP"
+    ],
+    "cat": "font"
+  },
+  "𝓠": {
+    "abbrevs": [
+      "MCQ"
+    ],
+    "cat": "font"
+  },
+  "𝓡": {
+    "abbrevs": [
+      "MCR"
+    ],
+    "cat": "font"
+  },
+  "𝓢": {
+    "abbrevs": [
+      "MCS"
+    ],
+    "cat": "font"
+  },
+  "𝓣": {
+    "abbrevs": [
+      "MCT"
+    ],
+    "cat": "font"
+  },
+  "𝓤": {
+    "abbrevs": [
+      "MCU"
+    ],
+    "cat": "font"
+  },
+  "𝓥": {
+    "abbrevs": [
+      "MCV"
+    ],
+    "cat": "font"
+  },
+  "𝓦": {
+    "abbrevs": [
+      "MCW"
+    ],
+    "cat": "font"
+  },
+  "𝓧": {
+    "abbrevs": [
+      "MCX"
+    ],
+    "cat": "font"
+  },
+  "𝓨": {
+    "abbrevs": [
+      "MCY"
+    ],
+    "cat": "font"
+  },
+  "𝓩": {
+    "abbrevs": [
+      "MCZ"
+    ],
+    "cat": "font"
+  },
+  "𝓪": {
+    "abbrevs": [
+      "MCa"
+    ],
+    "cat": "font"
+  },
+  "𝓫": {
+    "abbrevs": [
+      "MCb"
+    ],
+    "cat": "font"
+  },
+  "𝓬": {
+    "abbrevs": [
+      "MCc"
+    ],
+    "cat": "font"
+  },
+  "𝓭": {
+    "abbrevs": [
+      "MCd"
+    ],
+    "cat": "font"
+  },
+  "𝓮": {
+    "abbrevs": [
+      "MCe"
+    ],
+    "cat": "font"
+  },
+  "𝓯": {
+    "abbrevs": [
+      "MCf"
+    ],
+    "cat": "font"
+  },
+  "𝓰": {
+    "abbrevs": [
+      "MCg"
+    ],
+    "cat": "font"
+  },
+  "𝓱": {
+    "abbrevs": [
+      "MCh"
+    ],
+    "cat": "font"
+  },
+  "𝓲": {
+    "abbrevs": [
+      "MCi"
+    ],
+    "cat": "font"
+  },
+  "𝓳": {
+    "abbrevs": [
+      "MCj"
+    ],
+    "cat": "font"
+  },
+  "𝓴": {
+    "abbrevs": [
+      "MCk"
+    ],
+    "cat": "font"
+  },
+  "𝓵": {
+    "abbrevs": [
+      "MCl"
+    ],
+    "cat": "font"
+  },
+  "𝓶": {
+    "abbrevs": [
+      "MCm"
+    ],
+    "cat": "font"
+  },
+  "𝓷": {
+    "abbrevs": [
+      "MCn"
+    ],
+    "cat": "font"
+  },
+  "𝓸": {
+    "abbrevs": [
+      "MCo"
+    ],
+    "cat": "font"
+  },
+  "𝓹": {
+    "abbrevs": [
+      "MCp"
+    ],
+    "cat": "font"
+  },
+  "𝓺": {
+    "abbrevs": [
+      "MCq"
+    ],
+    "cat": "font"
+  },
+  "𝓻": {
+    "abbrevs": [
+      "MCr"
+    ],
+    "cat": "font"
+  },
+  "𝓼": {
+    "abbrevs": [
+      "MCs"
+    ],
+    "cat": "font"
+  },
+  "𝓽": {
+    "abbrevs": [
+      "MCt"
+    ],
+    "cat": "font"
+  },
+  "𝓾": {
+    "abbrevs": [
+      "MCu"
+    ],
+    "cat": "font"
+  },
+  "𝓿": {
+    "abbrevs": [
+      "MCv"
+    ],
+    "cat": "font"
+  },
+  "𝔀": {
+    "abbrevs": [
+      "MCw"
+    ],
+    "cat": "font"
+  },
+  "𝔁": {
+    "abbrevs": [
+      "MCx"
+    ],
+    "cat": "font"
+  },
+  "𝔂": {
+    "abbrevs": [
+      "MCy"
+    ],
+    "cat": "font"
+  },
+  "𝔃": {
+    "abbrevs": [
+      "MCz"
+    ],
+    "cat": "font"
+  },
+  "𝔄": {
+    "abbrevs": [
+      "MfA"
+    ],
+    "cat": "font"
+  },
+  "𝔅": {
+    "abbrevs": [
+      "MfB"
+    ],
+    "cat": "font"
+  },
+  "ℭ": {
+    "abbrevs": [
+      "MfC"
+    ],
+    "cat": "font"
+  },
+  "𝔇": {
+    "abbrevs": [
+      "MfD"
+    ],
+    "cat": "font"
+  },
+  "𝔈": {
+    "abbrevs": [
+      "MfE"
+    ],
+    "cat": "font"
+  },
+  "𝔉": {
+    "abbrevs": [
+      "MfF"
+    ],
+    "cat": "font"
+  },
+  "𝔊": {
+    "abbrevs": [
+      "MfG"
+    ],
+    "cat": "font"
+  },
+  "ℌ": {
+    "abbrevs": [
+      "MfH"
+    ],
+    "cat": "font"
+  },
+  "𝔍": {
+    "abbrevs": [
+      "MfJ"
+    ],
+    "cat": "font"
+  },
+  "𝔎": {
+    "abbrevs": [
+      "MfK"
+    ],
+    "cat": "font"
+  },
+  "𝔏": {
+    "abbrevs": [
+      "MfL"
+    ],
+    "cat": "font"
+  },
+  "𝔐": {
+    "abbrevs": [
+      "MfM"
+    ],
+    "cat": "font"
+  },
+  "𝔑": {
+    "abbrevs": [
+      "MfN"
+    ],
+    "cat": "font"
+  },
+  "𝔒": {
+    "abbrevs": [
+      "MfO"
+    ],
+    "cat": "font"
+  },
+  "𝔓": {
+    "abbrevs": [
+      "MfP"
+    ],
+    "cat": "font"
+  },
+  "𝔔": {
+    "abbrevs": [
+      "MfQ"
+    ],
+    "cat": "font"
+  },
+  "𝔖": {
+    "abbrevs": [
+      "MfS"
+    ],
+    "cat": "font"
+  },
+  "𝔗": {
+    "abbrevs": [
+      "MfT"
+    ],
+    "cat": "font"
+  },
+  "𝔘": {
+    "abbrevs": [
+      "MfU"
+    ],
+    "cat": "font"
+  },
+  "𝔙": {
+    "abbrevs": [
+      "MfV"
+    ],
+    "cat": "font"
+  },
+  "𝔚": {
+    "abbrevs": [
+      "MfW"
+    ],
+    "cat": "font"
+  },
+  "𝔛": {
+    "abbrevs": [
+      "MfX"
+    ],
+    "cat": "font"
+  },
+  "𝔜": {
+    "abbrevs": [
+      "MfY"
+    ],
+    "cat": "font"
+  },
+  "ℨ": {
+    "abbrevs": [
+      "MfZ"
+    ],
+    "cat": "font"
+  },
+  "𝔞": {
+    "abbrevs": [
+      "Mfa"
+    ],
+    "cat": "font"
+  },
+  "𝔟": {
+    "abbrevs": [
+      "Mfb"
+    ],
+    "cat": "font"
+  },
+  "𝔠": {
+    "abbrevs": [
+      "Mfc"
+    ],
+    "cat": "font"
+  },
+  "𝔡": {
+    "abbrevs": [
+      "Mfd"
+    ],
+    "cat": "font"
+  },
+  "𝔢": {
+    "abbrevs": [
+      "Mfe"
+    ],
+    "cat": "font"
+  },
+  "𝔣": {
+    "abbrevs": [
+      "Mff"
+    ],
+    "cat": "font"
+  },
+  "𝔤": {
+    "abbrevs": [
+      "Mfg"
+    ],
+    "cat": "font"
+  },
+  "𝔥": {
+    "abbrevs": [
+      "Mfh"
+    ],
+    "cat": "font"
+  },
+  "𝔦": {
+    "abbrevs": [
+      "Mfi"
+    ],
+    "cat": "font"
+  },
+  "𝔧": {
+    "abbrevs": [
+      "Mfj"
+    ],
+    "cat": "font"
+  },
+  "𝔨": {
+    "abbrevs": [
+      "Mfk"
+    ],
+    "cat": "font"
+  },
+  "𝔩": {
+    "abbrevs": [
+      "Mfl"
+    ],
+    "cat": "font"
+  },
+  "𝔪": {
+    "abbrevs": [
+      "Mfm"
+    ],
+    "cat": "font"
+  },
+  "𝔫": {
+    "abbrevs": [
+      "Mfn"
+    ],
+    "cat": "font"
+  },
+  "𝔬": {
+    "abbrevs": [
+      "Mfo"
+    ],
+    "cat": "font"
+  },
+  "𝔭": {
+    "abbrevs": [
+      "Mfp"
+    ],
+    "cat": "font"
+  },
+  "𝔮": {
+    "abbrevs": [
+      "Mfq"
+    ],
+    "cat": "font"
+  },
+  "𝔯": {
+    "abbrevs": [
+      "Mfr"
+    ],
+    "cat": "font"
+  },
+  "𝔰": {
+    "abbrevs": [
+      "Mfs"
+    ],
+    "cat": "font"
+  },
+  "𝔱": {
+    "abbrevs": [
+      "Mft"
+    ],
+    "cat": "font"
+  },
+  "𝔲": {
+    "abbrevs": [
+      "Mfu"
+    ],
+    "cat": "font"
+  },
+  "𝔳": {
+    "abbrevs": [
+      "Mfv"
+    ],
+    "cat": "font"
+  },
+  "𝔴": {
+    "abbrevs": [
+      "Mfw"
+    ],
+    "cat": "font"
+  },
+  "𝔵": {
+    "abbrevs": [
+      "Mfx"
+    ],
+    "cat": "font"
+  },
+  "𝔶": {
+    "abbrevs": [
+      "Mfy"
+    ],
+    "cat": "font"
+  },
+  "𝔷": {
+    "abbrevs": [
+      "Mfz"
+    ],
+    "cat": "font"
+  },
+  "𝔻": {
+    "abbrevs": [
+      "bbD"
+    ],
+    "cat": "font"
+  },
+  "𝔼": {
+    "abbrevs": [
+      "bbE"
+    ],
+    "cat": "font"
+  },
+  "𝔾": {
+    "abbrevs": [
+      "bbG"
+    ],
+    "cat": "font"
+  },
+  "𝕀": {
+    "abbrevs": [
+      "bbI"
+    ],
+    "cat": "font"
+  },
+  "𝕁": {
+    "abbrevs": [
+      "bbJ"
+    ],
+    "cat": "font"
+  },
+  "𝕃": {
+    "abbrevs": [
+      "bbL"
+    ],
+    "cat": "font"
+  },
+  "𝕄": {
+    "abbrevs": [
+      "bbM"
+    ],
+    "cat": "font"
+  },
+  "𝕆": {
+    "abbrevs": [
+      "bbO"
+    ],
+    "cat": "font"
+  },
+  "𝕊": {
+    "abbrevs": [
+      "bbS"
+    ],
+    "cat": "font"
+  },
+  "𝕋": {
+    "abbrevs": [
+      "bbT"
+    ],
+    "cat": "font"
+  },
+  "𝕌": {
+    "abbrevs": [
+      "bbU"
+    ],
+    "cat": "font"
+  },
+  "𝕍": {
+    "abbrevs": [
+      "bbV"
+    ],
+    "cat": "font"
+  },
+  "𝕎": {
+    "abbrevs": [
+      "bbW"
+    ],
+    "cat": "font"
+  },
+  "𝕏": {
+    "abbrevs": [
+      "bbX"
+    ],
+    "cat": "font"
+  },
+  "𝕐": {
+    "abbrevs": [
+      "bbY"
+    ],
+    "cat": "font"
+  },
+  "𝕒": {
+    "abbrevs": [
+      "bba"
+    ],
+    "cat": "font"
+  },
+  "𝕓": {
+    "abbrevs": [
+      "bbb"
+    ],
+    "cat": "font"
+  },
+  "𝕔": {
+    "abbrevs": [
+      "bbc"
+    ],
+    "cat": "font"
+  },
+  "𝕕": {
+    "abbrevs": [
+      "bbd"
+    ],
+    "cat": "font"
+  },
+  "𝕖": {
+    "abbrevs": [
+      "bbe"
+    ],
+    "cat": "font"
+  },
+  "𝕗": {
+    "abbrevs": [
+      "bbf"
+    ],
+    "cat": "font"
+  },
+  "𝕘": {
+    "abbrevs": [
+      "bbg"
+    ],
+    "cat": "font"
+  },
+  "𝕙": {
+    "abbrevs": [
+      "bbh"
+    ],
+    "cat": "font"
+  },
+  "𝕚": {
+    "abbrevs": [
+      "bbi"
+    ],
+    "cat": "font"
+  },
+  "𝕛": {
+    "abbrevs": [
+      "bbj"
+    ],
+    "cat": "font"
+  },
+  "𝕜": {
+    "abbrevs": [
+      "bbk"
+    ],
+    "cat": "font"
+  },
+  "𝕝": {
+    "abbrevs": [
+      "bbl"
+    ],
+    "cat": "font"
+  },
+  "𝕞": {
+    "abbrevs": [
+      "bbm"
+    ],
+    "cat": "font"
+  },
+  "𝕟": {
+    "abbrevs": [
+      "bbn"
+    ],
+    "cat": "font"
+  },
+  "𝕠": {
+    "abbrevs": [
+      "bbo"
+    ],
+    "cat": "font"
+  },
+  "𝕡": {
+    "abbrevs": [
+      "bbp"
+    ],
+    "cat": "font"
+  },
+  "𝕢": {
+    "abbrevs": [
+      "bbq"
+    ],
+    "cat": "font"
+  },
+  "𝕣": {
+    "abbrevs": [
+      "bbr"
+    ],
+    "cat": "font"
+  },
+  "𝕤": {
+    "abbrevs": [
+      "bbs"
+    ],
+    "cat": "font"
+  },
+  "𝕥": {
+    "abbrevs": [
+      "bbt"
+    ],
+    "cat": "font"
+  },
+  "𝕦": {
+    "abbrevs": [
+      "bbu"
+    ],
+    "cat": "font"
+  },
+  "𝕧": {
+    "abbrevs": [
+      "bbv"
+    ],
+    "cat": "font"
+  },
+  "𝕨": {
+    "abbrevs": [
+      "bbw"
+    ],
+    "cat": "font"
+  },
+  "𝕩": {
+    "abbrevs": [
+      "bbx"
+    ],
+    "cat": "font"
+  },
+  "𝕪": {
+    "abbrevs": [
+      "bby"
+    ],
+    "cat": "font"
+  },
+  "𝕫": {
+    "abbrevs": [
+      "bbz"
+    ],
+    "cat": "font"
+  },
+  "𝟘": {
+    "abbrevs": [
+      "b0"
+    ],
+    "cat": "font"
+  },
+  "𝟙": {
+    "abbrevs": [
+      "b1"
+    ],
+    "cat": "font"
+  },
+  "𝟚": {
+    "abbrevs": [
+      "b2"
+    ],
+    "cat": "font"
+  },
+  "𝟛": {
+    "abbrevs": [
+      "b3"
+    ],
+    "cat": "font"
+  },
+  "𝟜": {
+    "abbrevs": [
+      "b4"
+    ],
+    "cat": "font"
+  },
+  "𝟝": {
+    "abbrevs": [
+      "b5"
+    ],
+    "cat": "font"
+  },
+  "𝟞": {
+    "abbrevs": [
+      "b6"
+    ],
+    "cat": "font"
+  },
+  "𝟟": {
+    "abbrevs": [
+      "b7"
+    ],
+    "cat": "font"
+  },
+  "𝟠": {
+    "abbrevs": [
+      "b8"
+    ],
+    "cat": "font"
+  },
+  "𝟡": {
+    "abbrevs": [
+      "b9"
+    ],
+    "cat": "font"
+  },
+  "⅀": {
+    "abbrevs": [
+      "bsum"
+    ],
+    "cat": "font"
+  },
+  "𝟬": {
+    "abbrevs": [
+      "sb0"
+    ],
+    "cat": "font"
+  },
+  "𝟭": {
+    "abbrevs": [
+      "sb1"
+    ],
+    "cat": "font"
+  },
+  "𝟮": {
+    "abbrevs": [
+      "sb2"
+    ],
+    "cat": "font"
+  },
+  "𝟯": {
+    "abbrevs": [
+      "sb3"
+    ],
+    "cat": "font"
+  },
+  "𝟰": {
+    "abbrevs": [
+      "sb4"
+    ],
+    "cat": "font"
+  },
+  "𝟱": {
+    "abbrevs": [
+      "sb5"
+    ],
+    "cat": "font"
+  },
+  "𝟲": {
+    "abbrevs": [
+      "sb6"
+    ],
+    "cat": "font"
+  },
+  "𝟳": {
+    "abbrevs": [
+      "sb7"
+    ],
+    "cat": "font"
+  },
+  "𝟴": {
+    "abbrevs": [
+      "sb8"
+    ],
+    "cat": "font"
+  },
+  "𝟵": {
+    "abbrevs": [
+      "sb9"
+    ],
+    "cat": "font"
+  },
+  "ℑ": {
+    "abbrevs": [
+      "Im",
+      "MfI"
+    ],
+    "cat": "font"
+  },
+  "ℜ": {
+    "abbrevs": [
+      "Re",
+      "MfR"
+    ],
+    "cat": "font"
+  },
+  "ℐ": {
+    "abbrevs": [
+      "mathscr{I}",
+      "McI"
+    ],
+    "cat": "font"
+  },
+  " ": {
+    "abbrevs": [
+      "quad"
+    ],
+    "cat": "font"
+  },
+  "℘": {
+    "abbrevs": [
+      "wp"
+    ],
+    "cat": "font"
+  },
+  "¬": {
+    "abbrevs": [
+      "!",
+      "not",
+      "neg",
+      "lnot"
+    ],
+    "cat": "logic"
+  },
+  "⅋": {
+    "abbrevs": [
+      "&"
+    ],
+    "cat": "logic"
+  },
+  "∧": {
+    "abbrevs": [
+      "and",
+      "an",
+      "wedge"
+    ],
+    "cat": "logic"
+  },
+  "∨": {
+    "abbrevs": [
+      "v",
+      "or",
+      "vee"
+    ],
+    "cat": "logic"
+  },
+  "⊤": {
+    "abbrevs": [
+      "top"
+    ],
+    "cat": "logic"
+  },
+  "⊥": {
+    "abbrevs": [
+      "bot"
+    ],
+    "cat": "logic"
+  },
+  "⊹": {
+    "abbrevs": [
+      "+ "
+    ],
+    "cat": "logic"
+  },
+  "⊻": {
+    "abbrevs": [
+      "veebar"
+    ],
+    "cat": "logic"
+  },
+  "⊼": {
+    "abbrevs": [
+      "barwedge"
+    ],
+    "cat": "logic"
+  },
+  "⋀": {
+    "abbrevs": [
+      "And",
+      "bigwedge"
+    ],
+    "cat": "logic"
+  },
+  "⋁": {
+    "abbrevs": [
+      "Or",
+      "bigvee"
+    ],
+    "cat": "logic"
+  },
+  "⋎": {
+    "abbrevs": [
+      "curlyvee"
+    ],
+    "cat": "logic"
+  },
+  "⋏": {
+    "abbrevs": [
+      "curlywedge"
+    ],
+    "cat": "logic"
+  },
+  "⇨": {
+    "abbrevs": [
+      "heyting",
+      "himp"
+    ],
+    "cat": "logic"
+  },
+  "￢": {
+    "abbrevs": [
+      "hnot"
+    ],
+    "cat": "logic"
+  },
+  "⇰": {
+    "abbrevs": [
+      "|=>"
+    ],
+    "cat": "logic"
+  },
+  "⊢": {
+    "abbrevs": [
+      "entails",
+      "|-",
+      "vdash",
+      "goal"
+    ],
+    "cat": "logic"
+  },
+  "⊣": {
+    "abbrevs": [
+      "-|",
+      "dashv"
+    ],
+    "cat": "logic"
+  },
+  "⊧": {
+    "abbrevs": [
+      "models"
+    ],
+    "cat": "logic"
+  },
+  "⊨": {
+    "abbrevs": [
+      "|=",
+      "vDash"
+    ],
+    "cat": "logic"
+  },
+  "⊩": {
+    "abbrevs": [
+      "||-",
+      "Vdash"
+    ],
+    "cat": "logic"
+  },
+  "⊪": {
+    "abbrevs": [
+      "|||-",
+      "Vvdash"
+    ],
+    "cat": "logic"
+  },
+  "⊫": {
+    "abbrevs": [
+      "||="
+    ],
+    "cat": "logic"
+  },
+  "⊬": {
+    "abbrevs": [
+      "nvdash",
+      "|-n"
+    ],
+    "cat": "logic"
+  },
+  "⊭": {
+    "abbrevs": [
+      "nvDash",
+      "|=n"
+    ],
+    "cat": "logic"
+  },
+  "⊮": {
+    "abbrevs": [
+      "nVdash",
+      "||-n"
+    ],
+    "cat": "logic"
+  },
+  "⊯": {
+    "abbrevs": [
+      "nVDash",
+      "||=n"
+    ],
+    "cat": "logic"
+  },
+  "←": {
+    "abbrevs": [
+      "l",
+      "leftarrow",
+      "l-",
+      "gets",
+      "<-"
+    ],
+    "cat": "logic"
+  },
+  "→": {
+    "abbrevs": [
+      "r",
+      "imp",
+      "->",
+      "to",
+      "r-",
+      "rightarrow"
+    ],
+    "cat": "logic"
+  },
+  "↔": {
+    "abbrevs": [
+      "iff",
+      "leftrightarrow",
+      "lr-",
+      "lr",
+      "<->"
+    ],
+    "cat": "logic"
+  },
+  "⟵": {
+    "abbrevs": [
+      "l--",
+      "longleftarrow",
+      "<--"
+    ],
+    "cat": "logic"
+  },
+  "⟶": {
+    "abbrevs": [
+      "hom",
+      "-->",
+      "longrightarrow",
+      "r--"
+    ],
+    "cat": "logic"
+  },
+  "⟷": {
+    "abbrevs": [
+      "lr--",
+      "longleftrightarrow",
+      "<-->"
+    ],
+    "cat": "logic"
+  },
+  "↑": {
+    "abbrevs": [
+      "u",
+      "coe",
+      "u-",
+      "uparrow"
+    ],
+    "cat": "logic"
+  },
+  "↓": {
+    "abbrevs": [
+      "d",
+      "downarrow",
+      "d-"
+    ],
+    "cat": "logic"
+  },
+  "↕": {
+    "abbrevs": [
+      "ud-",
+      "ud",
+      "updownarrow"
+    ],
+    "cat": "logic"
+  },
+  "↖": {
+    "abbrevs": [
+      "nwarrow",
+      "ul-",
+      "ul"
+    ],
+    "cat": "logic"
+  },
+  "↗": {
+    "abbrevs": [
+      "nearrow",
+      "ur-",
+      "ur"
+    ],
+    "cat": "logic"
+  },
+  "↘": {
+    "abbrevs": [
+      "dr-",
+      "dr",
+      "searrow"
+    ],
+    "cat": "logic"
+  },
+  "↙": {
+    "abbrevs": [
+      "dl-",
+      "dl",
+      "swarrow"
+    ],
+    "cat": "logic"
+  },
+  "⇐": {
+    "abbrevs": [
+      "l=",
+      "Leftarrow",
+      "Longleftarrow"
+    ],
+    "cat": "logic"
+  },
+  "⇑": {
+    "abbrevs": [
+      "u=",
+      "Uparrow"
+    ],
+    "cat": "logic"
+  },
+  "⇒": {
+    "abbrevs": [
+      "=>",
+      "Longrightarrow",
+      "r=",
+      "Rightarrow"
+    ],
+    "cat": "logic"
+  },
+  "⇓": {
+    "abbrevs": [
+      "d=",
+      "Downarrow"
+    ],
+    "cat": "logic"
+  },
+  "⇔": {
+    "abbrevs": [
+      "lr=",
+      "<=>",
+      "Leftrightarrow",
+      "Longleftrightarrow",
+      "bihimp"
+    ],
+    "cat": "logic"
+  },
+  "⇕": {
+    "abbrevs": [
+      "ud=",
+      "Updownarrow"
+    ],
+    "cat": "logic"
+  },
+  "⇖": {
+    "abbrevs": [
+      "ul="
+    ],
+    "cat": "logic"
+  },
+  "⇗": {
+    "abbrevs": [
+      "ur="
+    ],
+    "cat": "logic"
+  },
+  "⇘": {
+    "abbrevs": [
+      "dr="
+    ],
+    "cat": "logic"
+  },
+  "⇙": {
+    "abbrevs": [
+      "dl="
+    ],
+    "cat": "logic"
+  },
+  "⟹": {
+    "abbrevs": [
+      "nattrans",
+      "nat_trans",
+      "==>"
+    ],
+    "cat": "logic"
+  },
+  "↚": {
+    "abbrevs": [
+      "nleftarrow",
+      "l-n",
+      "<-n"
+    ],
+    "cat": "logic"
+  },
+  "↛": {
+    "abbrevs": [
+      "nrightarrow",
+      "->n",
+      "r-n"
+    ],
+    "cat": "logic"
+  },
+  "↮": {
+    "abbrevs": [
+      "nleftrightarrow",
+      "lr-n",
+      "<->n"
+    ],
+    "cat": "logic"
+  },
+  "⇍": {
+    "abbrevs": [
+      "nLeftarrow",
+      "l=n"
+    ],
+    "cat": "logic"
+  },
+  "⇎": {
+    "abbrevs": [
+      "nLeftrightarrow",
+      "lr=n",
+      "<=>n"
+    ],
+    "cat": "logic"
+  },
+  "⇏": {
+    "abbrevs": [
+      "nRightarrow",
+      "=>n",
+      "r=n"
+    ],
+    "cat": "logic"
+  },
+  "⇄": {
+    "abbrevs": [
+      "r-l-",
+      "rightleftarrows"
+    ],
+    "cat": "logic"
+  },
+  "⇅": {
+    "abbrevs": [
+      "u-d-"
+    ],
+    "cat": "logic"
+  },
+  "⇆": {
+    "abbrevs": [
+      "leftrightarrows",
+      "l-r-"
+    ],
+    "cat": "logic"
+  },
+  "⇇": {
+    "abbrevs": [
+      "leftleftarrows",
+      "l-2"
+    ],
+    "cat": "logic"
+  },
+  "⇈": {
+    "abbrevs": [
+      "u-2",
+      "upuparrows"
+    ],
+    "cat": "logic"
+  },
+  "⇉": {
+    "abbrevs": [
+      "r-2",
+      "rightrightarrows"
+    ],
+    "cat": "logic"
+  },
+  "⇊": {
+    "abbrevs": [
+      "downdownarrows",
+      "d-2"
+    ],
+    "cat": "logic"
+  },
+  "⇵": {
+    "abbrevs": [
+      "d-u-"
+    ],
+    "cat": "logic"
+  },
+  "⇶": {
+    "abbrevs": [
+      "r-3"
+    ],
+    "cat": "logic"
+  },
+  "↞": {
+    "abbrevs": [
+      "twoheadleftarrow",
+      "ll-"
+    ],
+    "cat": "logic"
+  },
+  "↟": {
+    "abbrevs": [
+      "uu-"
+    ],
+    "cat": "logic"
+  },
+  "↠": {
+    "abbrevs": [
+      "twoheadrightarrow",
+      "rr-"
+    ],
+    "cat": "logic"
+  },
+  "↡": {
+    "abbrevs": [
+      "dd-"
+    ],
+    "cat": "logic"
+  },
+  "↼": {
+    "abbrevs": [
+      "leftharpoonup"
+    ],
+    "cat": "logic"
+  },
+  "↽": {
+    "abbrevs": [
+      "leftharpoondown"
+    ],
+    "cat": "logic"
+  },
+  "↾": {
+    "abbrevs": [
+      "uprightharpoon"
+    ],
+    "cat": "logic"
+  },
+  "↿": {
+    "abbrevs": [
+      "upleftharpoon"
+    ],
+    "cat": "logic"
+  },
+  "⇀": {
+    "abbrevs": [
+      "rightharpoonup"
+    ],
+    "cat": "logic"
+  },
+  "⇁": {
+    "abbrevs": [
+      "rightharpoondown"
+    ],
+    "cat": "logic"
+  },
+  "⇂": {
+    "abbrevs": [
+      "downrightharpoon"
+    ],
+    "cat": "logic"
+  },
+  "⇃": {
+    "abbrevs": [
+      "downleftharpoon"
+    ],
+    "cat": "logic"
+  },
+  "⇋": {
+    "abbrevs": [
+      "leftrightharpoons"
+    ],
+    "cat": "logic"
+  },
+  "⇌": {
+    "abbrevs": [
+      "rightleftharpoons"
+    ],
+    "cat": "logic"
+  },
+  "↢": {
+    "abbrevs": [
+      "leftarrowtail",
+      "l->"
+    ],
+    "cat": "logic"
+  },
+  "↣": {
+    "abbrevs": [
+      "pr",
+      "r->",
+      "rightarrowtail"
+    ],
+    "cat": "logic"
+  },
+  "↩": {
+    "abbrevs": [
+      "hookleftarrow"
+    ],
+    "cat": "logic"
+  },
+  "↪": {
+    "abbrevs": [
+      "hookrightarrow"
+    ],
+    "cat": "logic"
+  },
+  "↜": {
+    "abbrevs": [
+      "l~"
+    ],
+    "cat": "logic"
+  },
+  "↝": {
+    "abbrevs": [
+      "leadsto",
+      "r~"
+    ],
+    "cat": "logic"
+  },
+  "↫": {
+    "abbrevs": [
+      "looparrowleft"
+    ],
+    "cat": "logic"
+  },
+  "↬": {
+    "abbrevs": [
+      "looparrowright"
+    ],
+    "cat": "logic"
+  },
+  "↭": {
+    "abbrevs": [
+      "leftrightsquigarrow",
+      "lr~"
+    ],
+    "cat": "logic"
+  },
+  "↶": {
+    "abbrevs": [
+      "curvearrowleft"
+    ],
+    "cat": "logic"
+  },
+  "↷": {
+    "abbrevs": [
+      "curvearrowright"
+    ],
+    "cat": "logic"
+  },
+  "↺": {
+    "abbrevs": [
+      "circlearrowleft"
+    ],
+    "cat": "logic"
+  },
+  "↻": {
+    "abbrevs": [
+      "circlearrowright"
+    ],
+    "cat": "logic"
+  },
+  "⇝": {
+    "abbrevs": [
+      "squigarrowright"
+    ],
+    "cat": "logic"
+  },
+  "↰": {
+    "abbrevs": [
+      "Lsh"
+    ],
+    "cat": "logic"
+  },
+  "↱": {
+    "abbrevs": [
+      "Rsh"
+    ],
+    "cat": "logic"
+  },
+  "↤": {
+    "abbrevs": [
+      "l-|"
+    ],
+    "cat": "logic"
+  },
+  "↥": {
+    "abbrevs": [
+      "u-|"
+    ],
+    "cat": "logic"
+  },
+  "↦": {
+    "abbrevs": [
+      "ma",
+      "mapsto",
+      "|->",
+      "r-|"
+    ],
+    "cat": "logic"
+  },
+  "↧": {
+    "abbrevs": [
+      "d-|"
+    ],
+    "cat": "logic"
+  },
+  "↨": {
+    "abbrevs": [
+      "ud-|"
+    ],
+    "cat": "logic"
+  },
+  "↯": {
+    "abbrevs": [
+      "dz"
+    ],
+    "cat": "logic"
+  },
+  "⇚": {
+    "abbrevs": [
+      "l==",
+      "Lleftarrow"
+    ],
+    "cat": "logic"
+  },
+  "⇛": {
+    "abbrevs": [
+      "r==",
+      "Rrightarrow"
+    ],
+    "cat": "logic"
+  },
+  "⟰": {
+    "abbrevs": [
+      "u=="
+    ],
+    "cat": "logic"
+  },
+  "⟱": {
+    "abbrevs": [
+      "d=="
+    ],
+    "cat": "logic"
+  },
+  "⤳": {
+    "abbrevs": [
+      "specializes",
+      "~>"
+    ],
+    "cat": "logic"
+  },
+  "⥤": {
+    "abbrevs": [
+      "functor"
+    ],
+    "cat": "logic"
+  },
+  "⊸": {
+    "abbrevs": [
+      "-o",
+      "multimap",
+      "r-o"
+    ],
+    "cat": "logic"
+  },
+  "∘*": {
+    "abbrevs": [
+      "o*"
+    ],
+    "cat": "logic"
+  },
+  "⊕": {
+    "abbrevs": [
+      "oplus",
+      "o+"
+    ],
+    "cat": "logic"
+  },
+  "⊖": {
+    "abbrevs": [
+      "o--",
+      "ominus"
+    ],
+    "cat": "logic"
+  },
+  "⊗": {
+    "abbrevs": [
+      "ox",
+      "otimes",
+      "tensorproduct"
+    ],
+    "cat": "logic"
+  },
+  "⊘": {
+    "abbrevs": [
+      "o/",
+      "oslash"
+    ],
+    "cat": "logic"
+  },
+  "⊙": {
+    "abbrevs": [
+      "o.",
+      "odot"
+    ],
+    "cat": "logic"
+  },
+  "⊚": {
+    "abbrevs": [
+      "oo",
+      "circledcirc"
+    ],
+    "cat": "logic"
+  },
+  "⊛": {
+    "abbrevs": [
+      "circledast"
+    ],
+    "cat": "logic"
+  },
+  "⊜": {
+    "abbrevs": [
+      "o="
+    ],
+    "cat": "logic"
+  },
+  "⊝": {
+    "abbrevs": [
+      "o-",
+      "circleddash"
+    ],
+    "cat": "logic"
+  },
+  "⊞": {
+    "abbrevs": [
+      "b+",
+      "boxplus"
+    ],
+    "cat": "logic"
+  },
+  "⊟": {
+    "abbrevs": [
+      "b-",
+      "boxminus"
+    ],
+    "cat": "logic"
+  },
+  "⊠": {
+    "abbrevs": [
+      "bx",
+      "boxtimes"
+    ],
+    "cat": "logic"
+  },
+  "⊺": {
+    "abbrevs": [
+      "intercal"
+    ],
+    "cat": "logic"
+  },
+  "⍟": {
+    "abbrevs": [
+      "O*"
+    ],
+    "cat": "logic"
+  },
+  "⨀": {
+    "abbrevs": [
+      "O."
+    ],
+    "cat": "logic"
+  },
+  "⨁": {
+    "abbrevs": [
+      "O+",
+      "directsum"
+    ],
+    "cat": "logic"
+  },
+  "→₀": {
+    "abbrevs": [
+      "to0",
+      "r0",
+      "to_0",
+      "r_0",
+      "finsupp"
+    ],
+    "cat": "logic"
+  },
+  "→₁": {
+    "abbrevs": [
+      "to1",
+      "r1",
+      "to_1",
+      "r_1",
+      "l1"
+    ],
+    "cat": "logic"
+  },
+  "→₁ₛ": {
+    "abbrevs": [
+      "to1s",
+      "r1s",
+      "to_1s",
+      "r_1s",
+      "l1simplefunc"
+    ],
+    "cat": "logic"
+  },
+  "→ₐ": {
+    "abbrevs": [
+      "toa",
+      "ra",
+      "to_a",
+      "r_a",
+      "alghom"
+    ],
+    "cat": "logic"
+  },
+  "→ᵇ": {
+    "abbrevs": [
+      "tob",
+      "rb",
+      "to^b",
+      "r^b",
+      "boundedcontinuousfunction"
+    ],
+    "cat": "logic"
+  },
+  "→ₗ": {
+    "abbrevs": [
+      "tol",
+      "rl",
+      "to_l",
+      "r_l",
+      "linearmap"
+    ],
+    "cat": "logic"
+  },
+  "→ₛₗ": {
+    "abbrevs": [
+      "tosl",
+      "rsl",
+      "to_sl",
+      "r_sl",
+      "semilinearmap"
+    ],
+    "cat": "logic"
+  },
+  "→ₘ": {
+    "abbrevs": [
+      "tom",
+      "rm",
+      "to_m",
+      "r_m",
+      "aeeqfun"
+    ],
+    "cat": "logic"
+  },
+  "→ₚ": {
+    "abbrevs": [
+      "rp",
+      "to_p",
+      "r_p",
+      "dfinsupp"
+    ],
+    "cat": "logic"
+  },
+  "→ₛ": {
+    "abbrevs": [
+      "tos",
+      "rs",
+      "to_s",
+      "r_s",
+      "simplefunc"
+    ],
+    "cat": "logic"
+  },
+  "¿": {
+    "abbrevs": [
+      "?"
+    ],
+    "cat": "logic"
+  },
+  "≎": {
+    "abbrevs": [
+      "Bumpeq"
+    ],
+    "cat": "comparison"
+  },
+  "≏": {
+    "abbrevs": [
+      "bumpeq"
+    ],
+    "cat": "comparison"
+  },
+  "≐": {
+    "abbrevs": [
+      ".=",
+      "doteq"
+    ],
+    "cat": "comparison"
+  },
+  "≑": {
+    "abbrevs": [
+      ".=.",
+      "doteqdot"
+    ],
+    "cat": "comparison"
+  },
+  "≒": {
+    "abbrevs": [
+      "fallingdotseq"
+    ],
+    "cat": "comparison"
+  },
+  "≓": {
+    "abbrevs": [
+      "risingdotseq"
+    ],
+    "cat": "comparison"
+  },
+  "≔": {
+    "abbrevs": [
+      ":=",
+      "coloneq"
+    ],
+    "cat": "comparison"
+  },
+  "≕": {
+    "abbrevs": [
+      "eqcolon",
+      "=:"
+    ],
+    "cat": "comparison"
+  },
+  "≖": {
+    "abbrevs": [
+      "eqcirc"
+    ],
+    "cat": "comparison"
+  },
+  "≗": {
+    "abbrevs": [
+      "=o",
+      "circeq"
+    ],
+    "cat": "comparison"
+  },
+  "≘": {
+    "abbrevs": [
+      "(="
+    ],
+    "cat": "comparison"
+  },
+  "≙": {
+    "abbrevs": [
+      "and=",
+      "defs"
+    ],
+    "cat": "comparison"
+  },
+  "≚": {
+    "abbrevs": [
+      "or="
+    ],
+    "cat": "comparison"
+  },
+  "≛": {
+    "abbrevs": [
+      "*="
+    ],
+    "cat": "comparison"
+  },
+  "≜": {
+    "abbrevs": [
+      "t=",
+      "triangleq"
+    ],
+    "cat": "comparison"
+  },
+  "≝": {
+    "abbrevs": [
+      "def="
+    ],
+    "cat": "comparison"
+  },
+  "≞": {
+    "abbrevs": [
+      "m="
+    ],
+    "cat": "comparison"
+  },
+  "≡": {
+    "abbrevs": [
+      "=="
+    ],
+    "cat": "comparison"
+  },
+  "≢": {
+    "abbrevs": [
+      "nequiv",
+      "==n"
+    ],
+    "cat": "comparison"
+  },
+  "≣": {
+    "abbrevs": [
+      "==="
+    ],
+    "cat": "comparison"
+  },
+  "∼": {
+    "abbrevs": [
+      "~",
+      "homotopy",
+      "thicksim",
+      "sim"
+    ],
+    "cat": "comparison"
+  },
+  "≁": {
+    "abbrevs": [
+      "nsim",
+      "~n"
+    ],
+    "cat": "comparison"
+  },
+  "≂": {
+    "abbrevs": [
+      "-~"
+    ],
+    "cat": "comparison"
+  },
+  "≃": {
+    "abbrevs": [
+      "equiv",
+      "~-",
+      "simeq"
+    ],
+    "cat": "comparison"
+  },
+  "≄": {
+    "abbrevs": [
+      "nsimeq",
+      "~-n"
+    ],
+    "cat": "comparison"
+  },
+  "≅": {
+    "abbrevs": [
+      "iso",
+      "~=",
+      "cong"
+    ],
+    "cat": "comparison"
+  },
+  "≇": {
+    "abbrevs": [
+      "ncong",
+      "~=n"
+    ],
+    "cat": "comparison"
+  },
+  "≈": {
+    "abbrevs": [
+      "~~",
+      "approx",
+      "thickapprox"
+    ],
+    "cat": "comparison"
+  },
+  "≉": {
+    "abbrevs": [
+      "napprox",
+      "~~n"
+    ],
+    "cat": "comparison"
+  },
+  "≊": {
+    "abbrevs": [
+      "~~-",
+      "approxeq"
+    ],
+    "cat": "comparison"
+  },
+  "≋": {
+    "abbrevs": [
+      "~~~"
+    ],
+    "cat": "comparison"
+  },
+  "≌": {
+    "abbrevs": [
+      "backcong"
+    ],
+    "cat": "comparison"
+  },
+  "≍": {
+    "abbrevs": [
+      "asymp",
+      "heq"
+    ],
+    "cat": "comparison"
+  },
+  "≬": {
+    "abbrevs": [
+      "between"
+    ],
+    "cat": "comparison"
+  },
+  "≠": {
+    "abbrevs": [
+      "neq",
+      "ne",
+      "eqn",
+      "=n"
+    ],
+    "cat": "comparison"
+  },
+  "≤": {
+    "abbrevs": [
+      "leqslant",
+      "leq",
+      "le",
+      "<="
+    ],
+    "cat": "comparison"
+  },
+  "≦": {
+    "abbrevs": [
+      "leqq"
+    ],
+    "cat": "comparison"
+  },
+  "≨": {
+    "abbrevs": [
+      "lneqq",
+      "lneq",
+      "lvertneqq"
+    ],
+    "cat": "comparison"
+  },
+  "≲": {
+    "abbrevs": [
+      "lessapprox",
+      "lesssim",
+      "<~"
+    ],
+    "cat": "comparison"
+  },
+  "≶": {
+    "abbrevs": [
+      "lessgtr"
+    ],
+    "cat": "comparison"
+  },
+  "⋚": {
+    "abbrevs": [
+      "lesseqgtr",
+      "lesseqqgtr"
+    ],
+    "cat": "comparison"
+  },
+  "≥": {
+    "abbrevs": [
+      "geqslant",
+      "geq",
+      "ge",
+      ">="
+    ],
+    "cat": "comparison"
+  },
+  "≧": {
+    "abbrevs": [
+      "geqq"
+    ],
+    "cat": "comparison"
+  },
+  "≩": {
+    "abbrevs": [
+      "gneqq",
+      "gneq",
+      "gvertneqq"
+    ],
+    "cat": "comparison"
+  },
+  "≳": {
+    "abbrevs": [
+      "gtrapprox",
+      "gtrsim",
+      ">~"
+    ],
+    "cat": "comparison"
+  },
+  "≷": {
+    "abbrevs": [
+      "gtrless"
+    ],
+    "cat": "comparison"
+  },
+  "⋛": {
+    "abbrevs": [
+      "gtreqless",
+      "gtreqqless"
+    ],
+    "cat": "comparison"
+  },
+  "≪": {
+    "abbrevs": [
+      "ll"
+    ],
+    "cat": "comparison"
+  },
+  "≫": {
+    "abbrevs": [
+      "gg"
+    ],
+    "cat": "comparison"
+  },
+  "⋘": {
+    "abbrevs": [
+      "Ll"
+    ],
+    "cat": "comparison"
+  },
+  "⋙": {
+    "abbrevs": [
+      "ggg"
+    ],
+    "cat": "comparison"
+  },
+  "≺": {
+    "abbrevs": [
+      "prec"
+    ],
+    "cat": "comparison"
+  },
+  "≼": {
+    "abbrevs": [
+      "preceq",
+      "curlypreceq"
+    ],
+    "cat": "comparison"
+  },
+  "≾": {
+    "abbrevs": [
+      "precapprox",
+      "precsim"
+    ],
+    "cat": "comparison"
+  },
+  "⋞": {
+    "abbrevs": [
+      "curlyeqprec"
+    ],
+    "cat": "comparison"
+  },
+  "⋨": {
+    "abbrevs": [
+      "precnapprox",
+      "precnsim"
+    ],
+    "cat": "comparison"
+  },
+  "≻": {
+    "abbrevs": [
+      "succ"
+    ],
+    "cat": "comparison"
+  },
+  "≽": {
+    "abbrevs": [
+      "succcurlyeq",
+      "succeq"
+    ],
+    "cat": "comparison"
+  },
+  "≿": {
+    "abbrevs": [
+      "succapprox",
+      "succsim"
+    ],
+    "cat": "comparison"
+  },
+  "⋟": {
+    "abbrevs": [
+      "curlyeqsucc"
+    ],
+    "cat": "comparison"
+  },
+  "⋩": {
+    "abbrevs": [
+      "succnapprox",
+      "succnsim"
+    ],
+    "cat": "comparison"
+  },
+  "⋖": {
+    "abbrevs": [
+      "covers",
+      "covby",
+      "lessdot",
+      "<:"
+    ],
+    "cat": "comparison"
+  },
+  "⋗": {
+    "abbrevs": [
+      "gtrdot",
+      ":>"
+    ],
+    "cat": "comparison"
+  },
+  "⩿": {
+    "abbrevs": [
+      "wcovby",
+      "wcovers"
+    ],
+    "cat": "comparison"
+  },
+  "≮": {
+    "abbrevs": [
+      "notlt",
+      "nless"
+    ],
+    "cat": "comparison"
+  },
+  "≯": {
+    "abbrevs": [
+      "ngtr",
+      ">n"
+    ],
+    "cat": "comparison"
+  },
+  "≰": {
+    "abbrevs": [
+      "nleqq",
+      "nleqslant",
+      "nleq",
+      "leqn",
+      "len",
+      "<=n"
+    ],
+    "cat": "comparison"
+  },
+  "≱": {
+    "abbrevs": [
+      "ngeqq",
+      "ngeqslant",
+      "ngeq",
+      "geqn",
+      "gen",
+      ">=n"
+    ],
+    "cat": "comparison"
+  },
+  "⊀": {
+    "abbrevs": [
+      "nprec"
+    ],
+    "cat": "comparison"
+  },
+  "⊁": {
+    "abbrevs": [
+      "nsucc"
+    ],
+    "cat": "comparison"
+  },
+  "⊲": {
+    "abbrevs": [
+      "vartriangleleft"
+    ],
+    "cat": "comparison"
+  },
+  "⊳": {
+    "abbrevs": [
+      "vartriangleright"
+    ],
+    "cat": "comparison"
+  },
+  "⊴": {
+    "abbrevs": [
+      "trianglelefteq"
+    ],
+    "cat": "comparison"
+  },
+  "⊵": {
+    "abbrevs": [
+      "trianglerighteq"
+    ],
+    "cat": "comparison"
+  },
+  "⋠": {
+    "abbrevs": [
+      "npreceq"
+    ],
+    "cat": "comparison"
+  },
+  "⋡": {
+    "abbrevs": [
+      "nsucceq"
+    ],
+    "cat": "comparison"
+  },
+  "⋪": {
+    "abbrevs": [
+      "ntriangleleft"
+    ],
+    "cat": "comparison"
+  },
+  "⋫": {
+    "abbrevs": [
+      "ntriangleright"
+    ],
+    "cat": "comparison"
+  },
+  "⋬": {
+    "abbrevs": [
+      "ntrianglelefteq"
+    ],
+    "cat": "comparison"
+  },
+  "⋭": {
+    "abbrevs": [
+      "ntrianglerighteq"
+    ],
+    "cat": "comparison"
+  },
+  "⋢": {
+    "abbrevs": [
+      "squbn"
+    ],
+    "cat": "comparison"
+  },
+  "⋣": {
+    "abbrevs": [
+      "squpn"
+    ],
+    "cat": "comparison"
+  },
+  "∣": {
+    "abbrevs": [
+      "|",
+      "dvd",
+      "mid",
+      "shortmid"
+    ],
+    "cat": "comparison"
+  },
+  "∤": {
+    "abbrevs": [
+      "nmid",
+      "nshortmid",
+      "|n"
+    ],
+    "cat": "comparison"
+  },
+  "∥": {
+    "abbrevs": [
+      "parallel"
+    ],
+    "cat": "comparison"
+  },
+  "∦": {
+    "abbrevs": [
+      "nparallel"
+    ],
+    "cat": "comparison"
+  },
+  "≴": {
+    "abbrevs": [
+      "<~nn"
+    ],
+    "cat": "comparison"
+  },
+  "≵": {
+    "abbrevs": [
+      ">~nn"
+    ],
+    "cat": "comparison"
+  },
+  "⊓": {
+    "abbrevs": [
+      "inf",
+      "meet",
+      "glb",
+      "sqcap"
+    ],
+    "cat": "comparison"
+  },
+  "⊔": {
+    "abbrevs": [
+      "lub",
+      "sup",
+      "sqcup",
+      "join"
+    ],
+    "cat": "comparison"
+  },
+  "⨅": {
+    "abbrevs": [
+      "infi",
+      "Glb",
+      "Inf",
+      "Meet",
+      "Sqcap",
+      "bigglb",
+      "biginf",
+      "bigmeet",
+      "bigsqcap"
+    ],
+    "cat": "comparison"
+  },
+  "≀": {
+    "abbrevs": [
+      "wr"
+    ],
+    "cat": "comparison"
+  },
+  "⊋": {
+    "abbrevs": [
+      "supsetneqq",
+      "supsetneq"
+    ],
+    "cat": "comparison"
+  },
+  "∈": {
+    "abbrevs": [
+      "in",
+      "member",
+      "mem"
+    ],
+    "cat": "set"
+  },
+  "∉": {
+    "abbrevs": [
+      "notin",
+      "nin",
+      "inn"
+    ],
+    "cat": "set"
+  },
+  "∋": {
+    "abbrevs": [
+      "ni"
+    ],
+    "cat": "set"
+  },
+  "∌": {
+    "abbrevs": [
+      "nni"
+    ],
+    "cat": "set"
+  },
+  "∅": {
+    "abbrevs": [
+      "emptyset",
+      "empty",
+      "varnothing"
+    ],
+    "cat": "set"
+  },
+  "\\": {
+    "abbrevs": [
+      "\\",
+      "setminus"
+    ],
+    "cat": "set"
+  },
+  "∆": {
+    "abbrevs": [
+      "increment",
+      "symmdiff"
+    ],
+    "cat": "set"
+  },
+  "∖": {
+    "abbrevs": [
+      "smallsetminus"
+    ],
+    "cat": "set"
+  },
+  "∸": {
+    "abbrevs": [
+      ".-"
+    ],
+    "cat": "set"
+  },
+  "⊂": {
+    "abbrevs": [
+      "ssub",
+      "ssubset"
+    ],
+    "cat": "set"
+  },
+  "⊃": {
+    "abbrevs": [
+      "ssup",
+      "ssupset"
+    ],
+    "cat": "set"
+  },
+  "⊄": {
+    "abbrevs": [
+      "nsubset",
+      "ssubn"
+    ],
+    "cat": "set"
+  },
+  "⊅": {
+    "abbrevs": [
+      "nsupset",
+      "ssupn"
+    ],
+    "cat": "set"
+  },
+  "⊆": {
+    "abbrevs": [
+      "ss",
+      "subseteqq",
+      "subseteq",
+      "subset",
+      "sub"
+    ],
+    "cat": "set"
+  },
+  "⊇": {
+    "abbrevs": [
+      "supseteqq",
+      "supseteq",
+      "supset"
+    ],
+    "cat": "set"
+  },
+  "⊈": {
+    "abbrevs": [
+      "nsubseteqq",
+      "nsubseteq",
+      "subn"
+    ],
+    "cat": "set"
+  },
+  "⊉": {
+    "abbrevs": [
+      "nsupseteqq",
+      "nsupseteq",
+      "supn"
+    ],
+    "cat": "set"
+  },
+  "⊊": {
+    "abbrevs": [
+      "subsetneqq",
+      "subsetneq"
+    ],
+    "cat": "set"
+  },
+  "⊏": {
+    "abbrevs": [
+      "ssqub",
+      "sqsubset"
+    ],
+    "cat": "set"
+  },
+  "⊐": {
+    "abbrevs": [
+      "ssqup",
+      "sqsupset"
+    ],
+    "cat": "set"
+  },
+  "⊑": {
+    "abbrevs": [
+      "squb",
+      "sqsubseteq"
+    ],
+    "cat": "set"
+  },
+  "⊒": {
+    "abbrevs": [
+      "squp",
+      "sqsupseteq"
+    ],
+    "cat": "set"
+  },
+  "⋐": {
+    "abbrevs": [
+      "Subset"
+    ],
+    "cat": "set"
+  },
+  "⋑": {
+    "abbrevs": [
+      "Supset"
+    ],
+    "cat": "set"
+  },
+  "∩": {
+    "abbrevs": [
+      "i",
+      "inter",
+      "intersection",
+      "cap"
+    ],
+    "cat": "set"
+  },
+  "∪": {
+    "abbrevs": [
+      "union",
+      "un",
+      "cup"
+    ],
+    "cat": "set"
+  },
+  "⊍": {
+    "abbrevs": [
+      "u."
+    ],
+    "cat": "set"
+  },
+  "⊎": {
+    "abbrevs": [
+      "u+",
+      "uplus"
+    ],
+    "cat": "set"
+  },
+  "⋂": {
+    "abbrevs": [
+      "I",
+      "Inter",
+      "bInter",
+      "bigcap"
+    ],
+    "cat": "set"
+  },
+  "⋂₀": {
+    "abbrevs": [
+      "I0",
+      "sInter"
+    ],
+    "cat": "set"
+  },
+  "⋃": {
+    "abbrevs": [
+      "U",
+      "Un",
+      "Union",
+      "bUnion",
+      "bigcup"
+    ],
+    "cat": "set"
+  },
+  "⋃₀": {
+    "abbrevs": [
+      "U0",
+      "sUnion"
+    ],
+    "cat": "set"
+  },
+  "⋒": {
+    "abbrevs": [
+      "Cap"
+    ],
+    "cat": "set"
+  },
+  "⋓": {
+    "abbrevs": [
+      "Cup"
+    ],
+    "cat": "set"
+  },
+  "⨃": {
+    "abbrevs": [
+      "U."
+    ],
+    "cat": "set"
+  },
+  "⨄": {
+    "abbrevs": [
+      "U+"
+    ],
+    "cat": "set"
+  },
+  "⨆": {
+    "abbrevs": [
+      "supr",
+      "Join",
+      "Lub",
+      "Sup",
+      "Sqcup",
+      "bigjoin",
+      "biglub",
+      "bigsqcup",
+      "bigsup"
+    ],
+    "cat": "set"
+  },
+  "∀": {
+    "abbrevs": [
+      "all",
+      "forall"
+    ],
+    "cat": "set"
+  },
+  "∀ᶠ": {
+    "abbrevs": [
+      "allf",
+      "all^f"
+    ],
+    "cat": "set"
+  },
+  "∀ᵐ": {
+    "abbrevs": [
+      "allm",
+      "all^m"
+    ],
+    "cat": "set"
+  },
+  "∃": {
+    "abbrevs": [
+      "exists",
+      "ex"
+    ],
+    "cat": "set"
+  },
+  "∃ᶠ": {
+    "abbrevs": [
+      "exf"
+    ],
+    "cat": "set"
+  },
+  "∄": {
+    "abbrevs": [
+      "nexists",
+      "exn"
+    ],
+    "cat": "set"
+  },
+  "Ø": {
+    "abbrevs": [
+      "O",
+      "/O"
+    ],
+    "cat": "set"
+  },
+  "ᶜ": {
+    "abbrevs": [
+      "compl",
+      "complement",
+      "^c"
+    ],
+    "cat": "set"
+  },
+  "∁": {
+    "abbrevs": [
+      "complementprefix",
+      "Complement"
+    ],
+    "cat": "set"
+  },
+  "𝒫": {
+    "abbrevs": [
+      "powerset",
+      "McP"
+    ],
+    "cat": "set"
+  },
+  "ℵ": {
+    "abbrevs": [
+      "aleph"
+    ],
+    "cat": "set"
+  },
+  "ℵ₀": {
+    "abbrevs": [
+      "aleph0"
+    ],
+    "cat": "set"
+  },
+  "ℶ": {
+    "abbrevs": [
+      "beth"
+    ],
+    "cat": "set"
+  },
+  "ℷ": {
+    "abbrevs": [
+      "gimel"
+    ],
+    "cat": "set"
+  },
+  "ℸ": {
+    "abbrevs": [
+      "daleth"
+    ],
+    "cat": "set"
+  },
+  "ℂ": {
+    "abbrevs": [
+      "C",
+      "Com",
+      "com",
+      "bc",
+      "bbC"
+    ],
+    "cat": "set"
+  },
+  "ℍ": {
+    "abbrevs": [
+      "H",
+      "bbH"
+    ],
+    "cat": "set"
+  },
+  "ℕ": {
+    "abbrevs": [
+      "N",
+      "nat",
+      "bn",
+      "Nat",
+      "bbN"
+    ],
+    "cat": "set"
+  },
+  "ℕ∞": {
+    "abbrevs": [
+      "enat"
+    ],
+    "cat": "set"
+  },
+  "ℙ": {
+    "abbrevs": [
+      "bp",
+      "bbP"
+    ],
+    "cat": "set"
+  },
+  "ℚ": {
+    "abbrevs": [
+      "Q",
+      "bq",
+      "rat",
+      "Rat",
+      "bbQ"
+    ],
+    "cat": "set"
+  },
+  "ℝ": {
+    "abbrevs": [
+      "R",
+      "br",
+      "real",
+      "Real",
+      "bbR"
+    ],
+    "cat": "set"
+  },
+  "ℝ≥0": {
+    "abbrevs": [
+      "Rge0",
+      "R>=0",
+      "nnreal"
+    ],
+    "cat": "set"
+  },
+  "ℝ≥0∞": {
+    "abbrevs": [
+      "ennreal"
+    ],
+    "cat": "set"
+  },
+  "ℤ": {
+    "abbrevs": [
+      "Z",
+      "int",
+      "Int",
+      "bz",
+      "bbZ"
+    ],
+    "cat": "set"
+  },
+  "ℤ√": {
+    "abbrevs": [
+      "Zsqrt",
+      "zsqrtd"
+    ],
+    "cat": "set"
+  },
+  "𝔸": {
+    "abbrevs": [
+      "A",
+      "bbA"
+    ],
+    "cat": "set"
+  },
+  "𝔹": {
+    "abbrevs": [
+      "bb",
+      "bbB"
+    ],
+    "cat": "set"
+  },
+  "𝔽": {
+    "abbrevs": [
+      "F",
+      "bbF"
+    ],
+    "cat": "set"
+  },
+  "𝕂": {
+    "abbrevs": [
+      "K",
+      "bbK"
+    ],
+    "cat": "set"
+  },
+  "∏": {
+    "abbrevs": [
+      "prod"
+    ],
+    "cat": "set"
+  },
+  "∏ᶠ": {
+    "abbrevs": [
+      "finprod"
+    ],
+    "cat": "set"
+  },
+  "∐": {
+    "abbrevs": [
+      "amalg",
+      "smallamalg",
+      "bigcoprod",
+      "sigmaobj"
+    ],
+    "cat": "set"
+  },
+  "∑": {
+    "abbrevs": [
+      "sum"
+    ],
+    "cat": "set"
+  },
+  "∑ᶠ": {
+    "abbrevs": [
+      "finsum"
+    ],
+    "cat": "set"
+  },
+  "∫": {
+    "abbrevs": [
+      "integral"
+    ],
+    "cat": "set"
+  },
+  "∮": {
+    "abbrevs": [
+      "oint"
+    ],
+    "cat": "set"
+  },
+  "∯": {
+    "abbrevs": [
+      "oiint",
+      "tint"
+    ],
+    "cat": "set"
+  },
+  "⨍": {
+    "abbrevs": [
+      "integral-",
+      "average",
+      "-int"
+    ],
+    "cat": "set"
+  },
+  "±": {
+    "abbrevs": [
+      "pm"
+    ],
+    "cat": "algebra"
+  },
+  "×": {
+    "abbrevs": [
+      "x",
+      "times",
+      "multiplication"
+    ],
+    "cat": "algebra"
+  },
+  "÷": {
+    "abbrevs": [
+      "division",
+      "div"
+    ],
+    "cat": "algebra"
+  },
+  "−": {
+    "abbrevs": [
+      "minus"
+    ],
+    "cat": "algebra"
+  },
+  "∓": {
+    "abbrevs": [
+      "mp"
+    ],
+    "cat": "algebra"
+  },
+  "∔": {
+    "abbrevs": [
+      ".+",
+      "dotplus"
+    ],
+    "cat": "algebra"
+  },
+  "⁎": {
+    "abbrevs": [
+      "asterisk"
+    ],
+    "cat": "algebra"
+  },
+  "∗": {
+    "abbrevs": [
+      "ast"
+    ],
+    "cat": "algebra"
+  },
+  "⋆": {
+    "abbrevs": [
+      "*",
+      "star",
+      "st"
+    ],
+    "cat": "algebra"
+  },
+  "⋇": {
+    "abbrevs": [
+      "divideontimes"
+    ],
+    "cat": "algebra"
+  },
+  "·": {
+    "abbrevs": [
+      ".",
+      "dot",
+      "cdot",
+      "centerdot"
+    ],
+    "cat": "algebra"
+  },
+  "∘": {
+    "abbrevs": [
+      "o",
+      "comp",
+      "circ"
+    ],
+    "cat": "algebra"
+  },
+  "∙": {
+    "abbrevs": [
+      "span"
+    ],
+    "cat": "algebra"
+  },
+  "⬝": {
+    "abbrevs": [
+      "tr",
+      "con"
+    ],
+    "cat": "algebra"
+  },
+  "√": {
+    "abbrevs": [
+      "root",
+      "surd",
+      "sqrt"
+    ],
+    "cat": "algebra"
+  },
+  "∛": {
+    "abbrevs": [
+      "surd3"
+    ],
+    "cat": "algebra"
+  },
+  "∜": {
+    "abbrevs": [
+      "surd4"
+    ],
+    "cat": "algebra"
+  },
+  "∂": {
+    "abbrevs": [
+      "pd",
+      "partial"
+    ],
+    "cat": "algebra"
+  },
+  "∇": {
+    "abbrevs": [
+      "nabla"
+    ],
+    "cat": "algebra"
+  },
+  "∝": {
+    "abbrevs": [
+      "propto",
+      "varpropto"
+    ],
+    "cat": "algebra"
+  },
+  "∞": {
+    "abbrevs": [
+      "infty"
+    ],
+    "cat": "algebra"
+  },
+  "ℏ": {
+    "abbrevs": [
+      "hbar"
+    ],
+    "cat": "algebra"
+  },
+  "ℓ": {
+    "abbrevs": [
+      "ell"
+    ],
+    "cat": "algebra"
+  },
+  "⋉": {
+    "abbrevs": [
+      "ltimes"
+    ],
+    "cat": "algebra"
+  },
+  "⋊": {
+    "abbrevs": [
+      "rtimes"
+    ],
+    "cat": "algebra"
+  },
+  "⋋": {
+    "abbrevs": [
+      "leftthreetimes"
+    ],
+    "cat": "algebra"
+  },
+  "⌢": {
+    "abbrevs": [
+      "frown"
+    ],
+    "cat": "algebra"
+  },
+  "⌣": {
+    "abbrevs": [
+      "smallsmile",
+      "smile"
+    ],
+    "cat": "algebra"
+  },
+  "×ˢ": {
+    "abbrevs": [
+      "xs"
+    ],
+    "cat": "algebra"
+  },
+  "×ᶠ": {
+    "abbrevs": [
+      "xf"
+    ],
+    "cat": "algebra"
+  },
+  "⨂": {
+    "abbrevs": [
+      "pitensorproduct",
+      "tensorpower",
+      "Ox"
+    ],
+    "cat": "algebra"
+  },
+  "⨯": {
+    "abbrevs": [
+      "X",
+      "vectorproduct",
+      "crossproduct"
+    ],
+    "cat": "algebra"
+  },
+  "⨿": {
+    "abbrevs": [
+      "coprod"
+    ],
+    "cat": "algebra"
+  },
+  "¼": {
+    "abbrevs": [
+      "frac14",
+      "frac"
+    ],
+    "cat": "algebra"
+  },
+  "½": {
+    "abbrevs": [
+      "frac12"
+    ],
+    "cat": "algebra"
+  },
+  "¾": {
+    "abbrevs": [
+      "frac34"
+    ],
+    "cat": "algebra"
+  },
+  "⁄": {
+    "abbrevs": [
+      "textfractionsolidus"
+    ],
+    "cat": "algebra"
+  },
+  "⅌": {
+    "abbrevs": [
+      "per"
+    ],
+    "cat": "algebra"
+  },
+  "⅓": {
+    "abbrevs": [
+      "frac13"
+    ],
+    "cat": "algebra"
+  },
+  "⅔": {
+    "abbrevs": [
+      "frac23"
+    ],
+    "cat": "algebra"
+  },
+  "⅕": {
+    "abbrevs": [
+      "frac15"
+    ],
+    "cat": "algebra"
+  },
+  "⅖": {
+    "abbrevs": [
+      "frac25"
+    ],
+    "cat": "algebra"
+  },
+  "⅗": {
+    "abbrevs": [
+      "frac35"
+    ],
+    "cat": "algebra"
+  },
+  "⅘": {
+    "abbrevs": [
+      "frac45"
+    ],
+    "cat": "algebra"
+  },
+  "⅙": {
+    "abbrevs": [
+      "frac16"
+    ],
+    "cat": "algebra"
+  },
+  "⅚": {
+    "abbrevs": [
+      "frac56"
+    ],
+    "cat": "algebra"
+  },
+  "⅛": {
+    "abbrevs": [
+      "frac18"
+    ],
+    "cat": "algebra"
+  },
+  "⅜": {
+    "abbrevs": [
+      "frac38"
+    ],
+    "cat": "algebra"
+  },
+  "⅝": {
+    "abbrevs": [
+      "frac58"
+    ],
+    "cat": "algebra"
+  },
+  "⅞": {
+    "abbrevs": [
+      "frac78"
+    ],
+    "cat": "algebra"
+  },
+  "⅟": {
+    "abbrevs": [
+      "frac1"
+    ],
+    "cat": "algebra"
+  },
+  "∟": {
+    "abbrevs": [
+      "rightangle"
+    ],
+    "cat": "algebra"
+  },
+  "∠": {
+    "abbrevs": [
+      "angle"
+    ],
+    "cat": "algebra"
+  },
+  "∡": {
+    "abbrevs": [
+      "measuredangle"
+    ],
+    "cat": "algebra"
+  },
+  "∢": {
+    "abbrevs": [
+      "sphericalangle"
+    ],
+    "cat": "algebra"
+  },
+  "∴": {
+    "abbrevs": [
+      "therefore"
+    ],
+    "cat": "algebra"
+  },
+  "∵": {
+    "abbrevs": [
+      "because"
+    ],
+    "cat": "algebra"
+  },
+  "∎": {
+    "abbrevs": [
+      "qed"
+    ],
+    "cat": "algebra"
+  },
+  "∶": {
+    "abbrevs": [
+      ":"
+    ],
+    "cat": "algebra"
+  },
+  "∷": {
+    "abbrevs": [
+      "::"
+    ],
+    "cat": "algebra"
+  },
+  "∹": {
+    "abbrevs": [
+      "-:"
+    ],
+    "cat": "algebra"
+  },
+  "∺": {
+    "abbrevs": [
+      "::-"
+    ],
+    "cat": "algebra"
+  },
+  "∻": {
+    "abbrevs": [
+      ":~"
+    ],
+    "cat": "algebra"
+  },
+  "≟": {
+    "abbrevs": [
+      "?="
+    ],
+    "cat": "algebra"
+  },
+  "⋈": {
+    "abbrevs": [
+      "bowtie"
+    ],
+    "cat": "algebra"
+  },
+  "♯": {
+    "abbrevs": [
+      "#",
+      "sharp"
+    ],
+    "cat": "algebra"
+  },
+  "(☐)": {
+    "abbrevs": [
+      "()"
+    ],
+    "cat": "brackets"
+  },
+  "(☐)_": {
+    "abbrevs": [
+      "()_"
+    ],
+    "cat": "brackets"
+  },
+  "[☐]": {
+    "abbrevs": [
+      "[]"
+    ],
+    "cat": "brackets"
+  },
+  "[☐]_": {
+    "abbrevs": [
+      "[]_"
+    ],
+    "cat": "brackets"
+  },
+  "{☐}": {
+    "abbrevs": [
+      "{}"
+    ],
+    "cat": "brackets"
+  },
+  "{☐}_": {
+    "abbrevs": [
+      "{}_"
+    ],
+    "cat": "brackets"
+  },
+  "«☐»": {
+    "abbrevs": [
+      "f<<>>"
+    ],
+    "cat": "brackets"
+  },
+  "‖☐‖": {
+    "abbrevs": [
+      "||||",
+      "norm"
+    ],
+    "cat": "brackets"
+  },
+  "‖☐‖₊": {
+    "abbrevs": [
+      "nnnorm"
+    ],
+    "cat": "brackets"
+  },
+  "‹☐›": {
+    "abbrevs": [
+      "f<>"
+    ],
+    "cat": "brackets"
+  },
+  "⁅☐⁆": {
+    "abbrevs": [
+      "[--]"
+    ],
+    "cat": "brackets"
+  },
+  "⌈☐⌉": {
+    "abbrevs": [
+      "ceil"
+    ],
+    "cat": "brackets"
+  },
+  "⌈☐⌉₊": {
+    "abbrevs": [
+      "nceil"
+    ],
+    "cat": "brackets"
+  },
+  "⌊☐⌋": {
+    "abbrevs": [
+      "floor"
+    ],
+    "cat": "brackets"
+  },
+  "⌊☐⌋₊": {
+    "abbrevs": [
+      "nfloor"
+    ],
+    "cat": "brackets"
+  },
+  "⟦☐⟧": {
+    "abbrevs": [
+      "[[]]"
+    ],
+    "cat": "brackets"
+  },
+  "⟨☐⟩": {
+    "abbrevs": [
+      "<>"
+    ],
+    "cat": "brackets"
+  },
+  "⟮☐⟯": {
+    "abbrevs": [
+      "([])'"
+    ],
+    "cat": "brackets"
+  },
+  "⦃☐⦄": {
+    "abbrevs": [
+      "{{}}"
+    ],
+    "cat": "brackets"
+  },
+  "⦋☐⦌": {
+    "abbrevs": [
+      "s[]",
+      "simplex"
+    ],
+    "cat": "brackets"
+  },
+  "⸨☐⸩": {
+    "abbrevs": [
+      "(())"
+    ],
+    "cat": "brackets"
+  },
+  "«": {
+    "abbrevs": [
+      "f<<",
+      "flqq"
+    ],
+    "cat": "brackets"
+  },
+  "»": {
+    "abbrevs": [
+      "f>>",
+      "frqq"
+    ],
+    "cat": "brackets"
+  },
+  "‖": {
+    "abbrevs": [
+      "||",
+      "fuzzy",
+      "Vert"
+    ],
+    "cat": "brackets"
+  },
+  "‘": {
+    "abbrevs": [
+      "lq",
+      "grq"
+    ],
+    "cat": "brackets"
+  },
+  "’": {
+    "abbrevs": [
+      "rq"
+    ],
+    "cat": "brackets"
+  },
+  "‚": {
+    "abbrevs": [
+      "glq"
+    ],
+    "cat": "brackets"
+  },
+  "“": {
+    "abbrevs": [
+      "ldq",
+      "grqq"
+    ],
+    "cat": "brackets"
+  },
+  "”": {
+    "abbrevs": [
+      "rdq"
+    ],
+    "cat": "brackets"
+  },
+  "„": {
+    "abbrevs": [
+      "glqq"
+    ],
+    "cat": "brackets"
+  },
+  "…": {
+    "abbrevs": [
+      "ldots"
+    ],
+    "cat": "brackets"
+  },
+  "‹": {
+    "abbrevs": [
+      "f<",
+      "flq"
+    ],
+    "cat": "brackets"
+  },
+  "›": {
+    "abbrevs": [
+      "f>",
+      "frq"
+    ],
+    "cat": "brackets"
+  },
+  "⁅": {
+    "abbrevs": [
+      "textlquill",
+      "liel",
+      "bracketl",
+      "[-"
+    ],
+    "cat": "brackets"
+  },
+  "⁆": {
+    "abbrevs": [
+      "textrquill",
+      "lier",
+      "-]",
+      "bracketr"
+    ],
+    "cat": "brackets"
+  },
+  "⋯": {
+    "abbrevs": [
+      "...",
+      "cdots"
+    ],
+    "cat": "brackets"
+  },
+  "⋱": {
+    "abbrevs": [
+      "ddots"
+    ],
+    "cat": "brackets"
+  },
+  "⌈": {
+    "abbrevs": [
+      "lceil",
+      "cuL"
+    ],
+    "cat": "brackets"
+  },
+  "⌉": {
+    "abbrevs": [
+      "cuR",
+      "rceil"
+    ],
+    "cat": "brackets"
+  },
+  "⌊": {
+    "abbrevs": [
+      "lfloor",
+      "clL"
+    ],
+    "cat": "brackets"
+  },
+  "⌋": {
+    "abbrevs": [
+      "clR",
+      "rfloor"
+    ],
+    "cat": "brackets"
+  },
+  "⌜": {
+    "abbrevs": [
+      "ulcorner",
+      "cul",
+      "cu"
+    ],
+    "cat": "brackets"
+  },
+  "⌝": {
+    "abbrevs": [
+      "urcorner",
+      "cur"
+    ],
+    "cat": "brackets"
+  },
+  "⌞": {
+    "abbrevs": [
+      "llcorner",
+      "cll",
+      "cl"
+    ],
+    "cat": "brackets"
+  },
+  "⌟": {
+    "abbrevs": [
+      "lrcorner",
+      "clr"
+    ],
+    "cat": "brackets"
+  },
+  "⟅": {
+    "abbrevs": [
+      "(b",
+      "lbag"
+    ],
+    "cat": "brackets"
+  },
+  "⟆": {
+    "abbrevs": [
+      "rbag",
+      ")b"
+    ],
+    "cat": "brackets"
+  },
+  "⟦": {
+    "abbrevs": [
+      "[["
+    ],
+    "cat": "brackets"
+  },
+  "⟧": {
+    "abbrevs": [
+      "]]"
+    ],
+    "cat": "brackets"
+  },
+  "⟨": {
+    "abbrevs": [
+      "<",
+      "langle"
+    ],
+    "cat": "brackets"
+  },
+  "⟩": {
+    "abbrevs": [
+      ">",
+      "rangle"
+    ],
+    "cat": "brackets"
+  },
+  "⟪": {
+    "abbrevs": [
+      "<<"
+    ],
+    "cat": "brackets"
+  },
+  "⟫": {
+    "abbrevs": [
+      ">>"
+    ],
+    "cat": "brackets"
+  },
+  "⟮": {
+    "abbrevs": [
+      "(["
+    ],
+    "cat": "brackets"
+  },
+  "⟯": {
+    "abbrevs": [
+      "])"
+    ],
+    "cat": "brackets"
+  },
+  "⦃": {
+    "abbrevs": [
+      "{{",
+      "c["
+    ],
+    "cat": "brackets"
+  },
+  "⦄": {
+    "abbrevs": [
+      "}}",
+      "c]"
+    ],
+    "cat": "brackets"
+  },
+  "⸨": {
+    "abbrevs": [
+      "(("
+    ],
+    "cat": "brackets"
+  },
+  "⸩": {
+    "abbrevs": [
+      "))"
+    ],
+    "cat": "brackets"
+  },
+  "《": {
+    "abbrevs": [
+      "ldata"
+    ],
+    "cat": "brackets"
+  },
+  "》": {
+    "abbrevs": [
+      "rdata"
+    ],
+    "cat": "brackets"
+  },
+  "〚": {
+    "abbrevs": [
+      "llbracket"
+    ],
+    "cat": "brackets"
+  },
+  "〛": {
+    "abbrevs": [
+      "rrbracket"
+    ],
+    "cat": "brackets"
+  },
+  "¢": {
+    "abbrevs": [
+      "cent"
+    ],
+    "cat": "currency"
+  },
+  "£": {
+    "abbrevs": [
+      "pounds",
+      "pound"
+    ],
+    "cat": "currency"
+  },
+  "¤": {
+    "abbrevs": [
+      "currency"
+    ],
+    "cat": "currency"
+  },
+  "¥": {
+    "abbrevs": [
+      "yen"
+    ],
+    "cat": "currency"
+  },
+  "؋": {
+    "abbrevs": [
+      "afghani"
+    ],
+    "cat": "currency"
+  },
+  "฿": {
+    "abbrevs": [
+      "textbaht"
+    ],
+    "cat": "currency"
+  },
+  "₡": {
+    "abbrevs": [
+      "textcolonmonetary",
+      "colon"
+    ],
+    "cat": "currency"
+  },
+  "₢": {
+    "abbrevs": [
+      "cruzeiro"
+    ],
+    "cat": "currency"
+  },
+  "₤": {
+    "abbrevs": [
+      "textlira",
+      "lira"
+    ],
+    "cat": "currency"
+  },
+  "₥": {
+    "abbrevs": [
+      "mill"
+    ],
+    "cat": "currency"
+  },
+  "₦": {
+    "abbrevs": [
+      "naira",
+      "textnaira"
+    ],
+    "cat": "currency"
+  },
+  "₧": {
+    "abbrevs": [
+      "peseta"
+    ],
+    "cat": "currency"
+  },
+  "₨": {
+    "abbrevs": [
+      "rupee"
+    ],
+    "cat": "currency"
+  },
+  "₩": {
+    "abbrevs": [
+      "textwon",
+      "won"
+    ],
+    "cat": "currency"
+  },
+  "₫": {
+    "abbrevs": [
+      "dong"
+    ],
+    "cat": "currency"
+  },
+  "€": {
+    "abbrevs": [
+      "euro"
+    ],
+    "cat": "currency"
+  },
+  "₭": {
+    "abbrevs": [
+      "kip"
+    ],
+    "cat": "currency"
+  },
+  "₮": {
+    "abbrevs": [
+      "tugrik"
+    ],
+    "cat": "currency"
+  },
+  "₯": {
+    "abbrevs": [
+      "drachma"
+    ],
+    "cat": "currency"
+  },
+  "₱": {
+    "abbrevs": [
+      "textpeso",
+      "peso"
+    ],
+    "cat": "currency"
+  },
+  "₲": {
+    "abbrevs": [
+      "guarani"
+    ],
+    "cat": "currency"
+  },
+  "₳": {
+    "abbrevs": [
+      "austral"
+    ],
+    "cat": "currency"
+  },
+  "₴": {
+    "abbrevs": [
+      "hryvnia"
+    ],
+    "cat": "currency"
+  },
+  "₵": {
+    "abbrevs": [
+      "cedi"
+    ],
+    "cat": "currency"
+  },
+  "₷": {
+    "abbrevs": [
+      "spesmilo"
+    ],
+    "cat": "currency"
+  },
+  "₸": {
+    "abbrevs": [
+      "tenge"
+    ],
+    "cat": "currency"
+  },
+  "₼": {
+    "abbrevs": [
+      "manat"
+    ],
+    "cat": "currency"
+  },
+  "₽": {
+    "abbrevs": [
+      "ruble"
+    ],
+    "cat": "currency"
+  },
+  "₾": {
+    "abbrevs": [
+      "lari"
+    ],
+    "cat": "currency"
+  },
+  "℥": {
+    "abbrevs": [
+      "ounce"
+    ],
+    "cat": "currency"
+  },
+  "𐆎": {
+    "abbrevs": [
+      "nomisma"
+    ],
+    "cat": "currency"
+  },
+  "K": {
+    "abbrevs": [
+      "kelvin"
+    ],
+    "cat": "misc"
+  },
+  "\\n": {
+    "abbrevs": [
+      "n"
+    ],
+    "cat": "misc"
+  },
+  "¡": {
+    "abbrevs": [
+      "r!"
+    ],
+    "cat": "misc"
+  },
+  "¦": {
+    "abbrevs": [
+      "brokenbar"
+    ],
+    "cat": "misc"
+  },
+  "§": {
+    "abbrevs": [
+      "section"
+    ],
+    "cat": "misc"
+  },
+  "©": {
+    "abbrevs": [
+      "copyright"
+    ],
+    "cat": "misc"
+  },
+  "ª": {
+    "abbrevs": [
+      "ordfeminine",
+      "^a_"
+    ],
+    "cat": "misc"
+  },
+  "®": {
+    "abbrevs": [
+      "circledR",
+      "registered"
+    ],
+    "cat": "misc"
+  },
+  "°": {
+    "abbrevs": [
+      "degree"
+    ],
+    "cat": "misc"
+  },
+  "µ": {
+    "abbrevs": [
+      "textmu",
+      "micro"
+    ],
+    "cat": "misc"
+  },
+  "¶": {
+    "abbrevs": [
+      "paragraph",
+      "pilcrow"
+    ],
+    "cat": "misc"
+  },
+  "º": {
+    "abbrevs": [
+      "ordmasculine",
+      "^o_"
+    ],
+    "cat": "misc"
+  },
+  "ᗮ": {
+    "abbrevs": [
+      "^perp",
+      "^bot"
+    ],
+    "cat": "misc"
+  },
+  "–": {
+    "abbrevs": [
+      "en"
+    ],
+    "cat": "misc"
+  },
+  "—": {
+    "abbrevs": [
+      "em"
+    ],
+    "cat": "misc"
+  },
+  "†": {
+    "abbrevs": [
+      "dagger",
+      "dag"
+    ],
+    "cat": "misc"
+  },
+  "‡": {
+    "abbrevs": [
+      "ddagger",
+      "ddag"
+    ],
+    "cat": "misc"
+  },
+  "•": {
+    "abbrevs": [
+      "smul",
+      "bub",
+      "bu"
+    ],
+    "cat": "misc"
+  },
+  "‣": {
+    "abbrevs": [
+      "but"
+    ],
+    "cat": "misc"
+  },
+  "‰": {
+    "abbrevs": [
+      "permil"
+    ],
+    "cat": "misc"
+  },
+  "‱": {
+    "abbrevs": [
+      "textpertenthousand"
+    ],
+    "cat": "misc"
+  },
+  "′": {
+    "abbrevs": [
+      "prime",
+      "varprime"
+    ],
+    "cat": "misc"
+  },
+  "‵": {
+    "abbrevs": [
+      "backprime"
+    ],
+    "cat": "misc"
+  },
+  "※": {
+    "abbrevs": [
+      "textreferencemark"
+    ],
+    "cat": "misc"
+  },
+  "‼": {
+    "abbrevs": [
+      "!!"
+    ],
+    "cat": "misc"
+  },
+  "‽": {
+    "abbrevs": [
+      "textinterrobang",
+      "?!"
+    ],
+    "cat": "misc"
+  },
+  "‿": {
+    "abbrevs": [
+      "undertie"
+    ],
+    "cat": "misc"
+  },
+  "⁀": {
+    "abbrevs": [
+      "tie"
+    ],
+    "cat": "misc"
+  },
+  "⁇": {
+    "abbrevs": [
+      "??"
+    ],
+    "cat": "misc"
+  },
+  "⁉": {
+    "abbrevs": [
+      "!?"
+    ],
+    "cat": "misc"
+  },
+  "⁒": {
+    "abbrevs": [
+      "textdiscount"
+    ],
+    "cat": "misc"
+  },
+  "℃": {
+    "abbrevs": [
+      "celsius"
+    ],
+    "cat": "misc"
+  },
+  "№": {
+    "abbrevs": [
+      "numero",
+      "textnumero"
+    ],
+    "cat": "misc"
+  },
+  "℗": {
+    "abbrevs": [
+      "textcircledP"
+    ],
+    "cat": "misc"
+  },
+  "℞": {
+    "abbrevs": [
+      "textrecipe"
+    ],
+    "cat": "misc"
+  },
+  "℡": {
+    "abbrevs": [
+      "telephone",
+      "^TEL"
+    ],
+    "cat": "misc"
+  },
+  "℧": {
+    "abbrevs": [
+      "mho"
+    ],
+    "cat": "misc"
+  },
+  "℮": {
+    "abbrevs": [
+      "textestimated"
+    ],
+    "cat": "misc"
+  },
+  "℻": {
+    "abbrevs": [
+      "facsimile"
+    ],
+    "cat": "misc"
+  },
+  "∍": {
+    "abbrevs": [
+      "backepsilon"
+    ],
+    "cat": "misc"
+  },
+  "∽": {
+    "abbrevs": [
+      "backsim"
+    ],
+    "cat": "misc"
+  },
+  "⊡": {
+    "abbrevs": [
+      "dotsquare",
+      "b."
+    ],
+    "cat": "misc"
+  },
+  "⋄": {
+    "abbrevs": [
+      "diamond"
+    ],
+    "cat": "misc"
+  },
+  "⋌": {
+    "abbrevs": [
+      "rightthreetimes"
+    ],
+    "cat": "misc"
+  },
+  "⋍": {
+    "abbrevs": [
+      "backsimeq"
+    ],
+    "cat": "misc"
+  },
+  "⋔": {
+    "abbrevs": [
+      "pitchfork"
+    ],
+    "cat": "misc"
+  },
+  "⋜": {
+    "abbrevs": [
+      "eqslantless"
+    ],
+    "cat": "misc"
+  },
+  "⋝": {
+    "abbrevs": [
+      "eqslantgtr"
+    ],
+    "cat": "misc"
+  },
+  "⋦": {
+    "abbrevs": [
+      "lnapprox",
+      "lnsim",
+      "<~n"
+    ],
+    "cat": "misc"
+  },
+  "⋧": {
+    "abbrevs": [
+      "gnapprox",
+      "gnsim",
+      ">~n"
+    ],
+    "cat": "misc"
+  },
+  "⋮": {
+    "abbrevs": [
+      "vdots"
+    ],
+    "cat": "misc"
+  },
+  "⌀": {
+    "abbrevs": [
+      "diameter"
+    ],
+    "cat": "misc"
+  },
+  "⌶": {
+    "abbrevs": [
+      "apl"
+    ],
+    "cat": "misc"
+  },
+  "Ⓢ": {
+    "abbrevs": [
+      "circledS"
+    ],
+    "cat": "misc"
+  },
+  "─": {
+    "abbrevs": [
+      "---"
+    ],
+    "cat": "misc"
+  },
+  "━": {
+    "abbrevs": [
+      "--_"
+    ],
+    "cat": "misc"
+  },
+  "╌": {
+    "abbrevs": [
+      "--."
+    ],
+    "cat": "misc"
+  },
+  "═": {
+    "abbrevs": [
+      "--="
+    ],
+    "cat": "misc"
+  },
+  "■": {
+    "abbrevs": [
+      "sqb"
+    ],
+    "cat": "misc"
+  },
+  "□": {
+    "abbrevs": [
+      "square",
+      "sqw",
+      "Box"
+    ],
+    "cat": "misc"
+  },
+  "▢": {
+    "abbrevs": [
+      "sqo"
+    ],
+    "cat": "misc"
+  },
+  "▣": {
+    "abbrevs": [
+      "sq."
+    ],
+    "cat": "misc"
+  },
+  "▪": {
+    "abbrevs": [
+      "blacksquare"
+    ],
+    "cat": "misc"
+  },
+  "▬": {
+    "abbrevs": [
+      "reb",
+      "re"
+    ],
+    "cat": "misc"
+  },
+  "▭": {
+    "abbrevs": [
+      "rew"
+    ],
+    "cat": "misc"
+  },
+  "▰": {
+    "abbrevs": [
+      "pab",
+      "pa"
+    ],
+    "cat": "misc"
+  },
+  "▱": {
+    "abbrevs": [
+      "paw"
+    ],
+    "cat": "misc"
+  },
+  "△": {
+    "abbrevs": [
+      "bigtriangleup"
+    ],
+    "cat": "misc"
+  },
+  "▴": {
+    "abbrevs": [
+      "blacktriangle"
+    ],
+    "cat": "misc"
+  },
+  "▵": {
+    "abbrevs": [
+      "triangle"
+    ],
+    "cat": "misc"
+  },
+  "▷": {
+    "abbrevs": [
+      "rhd"
+    ],
+    "cat": "misc"
+  },
+  "▸": {
+    "abbrevs": [
+      "t",
+      "rw",
+      "blacktriangleright"
+    ],
+    "cat": "misc"
+  },
+  "▹": {
+    "abbrevs": [
+      "transport",
+      "trans",
+      "triangleright"
+    ],
+    "cat": "misc"
+  },
+  "▽": {
+    "abbrevs": [
+      "bigtriangledown"
+    ],
+    "cat": "misc"
+  },
+  "▾": {
+    "abbrevs": [
+      "blacktriangledown"
+    ],
+    "cat": "misc"
+  },
+  "▿": {
+    "abbrevs": [
+      "triangledown"
+    ],
+    "cat": "misc"
+  },
+  "◀": {
+    "abbrevs": [
+      "Tr",
+      "Tb"
+    ],
+    "cat": "misc"
+  },
+  "◁": {
+    "abbrevs": [
+      "lhd",
+      "Tw"
+    ],
+    "cat": "misc"
+  },
+  "◂": {
+    "abbrevs": [
+      "tb",
+      "blacktriangleleft"
+    ],
+    "cat": "misc"
+  },
+  "◃": {
+    "abbrevs": [
+      "triangleleft",
+      "tw"
+    ],
+    "cat": "misc"
+  },
+  "◆": {
+    "abbrevs": [
+      "dib",
+      "di"
+    ],
+    "cat": "misc"
+  },
+  "◇": {
+    "abbrevs": [
+      "diw",
+      "Diamond"
+    ],
+    "cat": "misc"
+  },
+  "◈": {
+    "abbrevs": [
+      "di."
+    ],
+    "cat": "misc"
+  },
+  "○": {
+    "abbrevs": [
+      "ciw"
+    ],
+    "cat": "misc"
+  },
+  "◌": {
+    "abbrevs": [
+      "ci.."
+    ],
+    "cat": "misc"
+  },
+  "◎": {
+    "abbrevs": [
+      "ci."
+    ],
+    "cat": "misc"
+  },
+  "●": {
+    "abbrevs": [
+      "cib",
+      "ci"
+    ],
+    "cat": "misc"
+  },
+  "◦": {
+    "abbrevs": [
+      "textopenbullet",
+      "buw"
+    ],
+    "cat": "misc"
+  },
+  "◫": {
+    "abbrevs": [
+      "boxmid",
+      "hcomp"
+    ],
+    "cat": "misc"
+  },
+  "◯": {
+    "abbrevs": [
+      "ciO",
+      "bigcirc"
+    ],
+    "cat": "misc"
+  },
+  "◾": {
+    "abbrevs": [
+      "sq"
+    ],
+    "cat": "misc"
+  },
+  "★": {
+    "abbrevs": [
+      "bigstar"
+    ],
+    "cat": "misc"
+  },
+  "☡": {
+    "abbrevs": [
+      "caution"
+    ],
+    "cat": "misc"
+  },
+  "☢": {
+    "abbrevs": [
+      "radioactive"
+    ],
+    "cat": "misc"
+  },
+  "☣": {
+    "abbrevs": [
+      "biohazard"
+    ],
+    "cat": "misc"
+  },
+  "☹": {
+    "abbrevs": [
+      "Frowny"
+    ],
+    "cat": "misc"
+  },
+  "☺": {
+    "abbrevs": [
+      "Smiley"
+    ],
+    "cat": "misc"
+  },
+  "☻": {
+    "abbrevs": [
+      "blacksmiley"
+    ],
+    "cat": "misc"
+  },
+  "♀": {
+    "abbrevs": [
+      "female"
+    ],
+    "cat": "misc"
+  },
+  "♂": {
+    "abbrevs": [
+      "male"
+    ],
+    "cat": "misc"
+  },
+  "♠": {
+    "abbrevs": [
+      "spadesuit"
+    ],
+    "cat": "misc"
+  },
+  "♢": {
+    "abbrevs": [
+      "diamondsuit"
+    ],
+    "cat": "misc"
+  },
+  "♣": {
+    "abbrevs": [
+      "clubsuit"
+    ],
+    "cat": "misc"
+  },
+  "♥": {
+    "abbrevs": [
+      "heartsuit"
+    ],
+    "cat": "misc"
+  },
+  "♩": {
+    "abbrevs": [
+      "note"
+    ],
+    "cat": "misc"
+  },
+  "♪": {
+    "abbrevs": [
+      "textmusicalnote"
+    ],
+    "cat": "misc"
+  },
+  "♭": {
+    "abbrevs": [
+      "flat"
+    ],
+    "cat": "misc"
+  },
+  "♮": {
+    "abbrevs": [
+      "natural"
+    ],
+    "cat": "misc"
+  },
+  "⚀": {
+    "abbrevs": [
+      "die"
+    ],
+    "cat": "misc"
+  },
+  "⚠": {
+    "abbrevs": [
+      "warning"
+    ],
+    "cat": "misc"
+  },
+  "✂": {
+    "abbrevs": [
+      "scissor"
+    ],
+    "cat": "misc"
+  },
+  "✉": {
+    "abbrevs": [
+      "Letter"
+    ],
+    "cat": "misc"
+  },
+  "✓": {
+    "abbrevs": [
+      "checkmark"
+    ],
+    "cat": "misc"
+  },
+  "✝": {
+    "abbrevs": [
+      "textdied"
+    ],
+    "cat": "misc"
+  },
+  "✠": {
+    "abbrevs": [
+      "maltese"
+    ],
+    "cat": "misc"
+  },
+  "✦": {
+    "abbrevs": [
+      "st4",
+      "blacklozenge"
+    ],
+    "cat": "misc"
+  },
+  "✧": {
+    "abbrevs": [
+      "lozenge"
+    ],
+    "cat": "misc"
+  },
+  "✴": {
+    "abbrevs": [
+      "st8"
+    ],
+    "cat": "misc"
+  },
+  "✶": {
+    "abbrevs": [
+      "st6"
+    ],
+    "cat": "misc"
+  },
+  "✹": {
+    "abbrevs": [
+      "st12"
+    ],
+    "cat": "misc"
+  },
+  "⟂": {
+    "abbrevs": [
+      "perp"
+    ],
+    "cat": "misc"
+  },
+  "⦋": {
+    "abbrevs": [
+      "lsimplex"
+    ],
+    "cat": "misc"
+  },
+  "⦌": {
+    "abbrevs": [
+      "rsimplex"
+    ],
+    "cat": "misc"
+  },
+  "⧏": {
+    "abbrevs": [
+      "lf",
+      "<|"
+    ],
+    "cat": "misc"
+  },
+  "⧸": {
+    "abbrevs": [
+      "quot",
+      "bigsolidus",
+      "/"
+    ],
+    "cat": "misc"
+  },
+  "⧾": {
+    "abbrevs": [
+      "tiny"
+    ],
+    "cat": "misc"
+  },
+  "⧿": {
+    "abbrevs": [
+      "miny"
+    ],
+    "cat": "misc"
+  },
+  "⯑": {
+    "abbrevs": [
+      "uncertainty"
+    ],
+    "cat": "misc"
+  },
+  "㉐": {
+    "abbrevs": [
+      "partnership"
+    ],
+    "cat": "misc"
+  },
+  "ꟸ": {
+    "abbrevs": [
+      "^Hstroke"
+    ],
+    "cat": "misc"
+  },
+  "ꟹ": {
+    "abbrevs": [
+      "^oe"
+    ],
+    "cat": "misc"
+  },
+  "﹨": {
+    "abbrevs": [
+      "sbs"
+    ],
+    "cat": "misc"
+  },
+  "🚧": {
+    "abbrevs": [
+      "construction"
+    ],
+    "cat": "misc"
+  },
+  "🛇": {
+    "abbrevs": [
+      "prohibited"
+    ],
+    "cat": "misc"
+  },
+  "🛑": {
+    "abbrevs": [
+      "octagonal"
+    ],
+    "cat": "misc"
+  }
+}

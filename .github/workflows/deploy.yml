@@ -14,9 +14,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: checkout code
         uses: actions/checkout@v6
-      - name: Install, build, and upload your site
+      - name: build code
         uses: withastro/action@v6
 
   deploy:
@@ -26,6 +26,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy to GitHub Pages
+      - name: deploy
         id: deployment
         uses: actions/deploy-pages@v5

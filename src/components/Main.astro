@@ -1,0 +1,392 @@
+---
+import grouped from "../../public/grouped.json";
+import { SymbolCell } from "./SymbolCell";
+import { Window } from "./Window";
+import copy from "./copy.svg?url";
+
+const cats = [
+  // remove duplicates
+  ...new Set(
+    Object.values(grouped)
+      .map((v) => v.cat)
+      // remove misc...
+      .filter((x) => x !== "misc"),
+  ),
+]
+  .sort()
+  // ...so we can put it at the end if the list.
+  .concat("misc");
+
+const GH_SOURCE_LINK =
+  "https://github.com/leanprover/vscode-lean4/blob/8ae6710deae85b9f7b379e4fd3cf6a7495ec1424/lean4-unicode-input/src/abbreviations.json";
+---
+
+<Window id="main" title="quartztz::lean-symb">
+  <div class="w-full flex justify-center">
+    <div class="w-full max-w-300 px-4 md:px-8 flex flex-col justify-center">
+      <div
+        class="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 md:gap-16 py-6 md:py-8"
+      >
+        <div class="w-fit flex flex-col gap-2">
+          <h1 class="font-semibold text-4xl mb-1.5">Lean 4 symbol reference</h1>
+          <span class="italic text-lg leading-normal">
+            Statically (for now) generated from <a
+              href={GH_SOURCE_LINK}
+              class="font-mono not-italic"
+              >lean4-vscode's <span class="font-mono">abbreviations.json</span
+              ></a
+            >
+            file. Please let me know if anything changes!<br />
+            Click on a symbol to see more details. <br />
+            The symbol <span class="font-mono not-italic">☐</span> represents where
+            the cursor will be placed for bracket-like abbreviations.
+          </span>
+        </div>
+      </div>
+
+      <div class="pb-2 flex justify-between items-end gap-8 text-sm">
+        <div class="flex flex-wrap gap-2">
+          <button
+            data-cat-filter="all"
+            class="cat-pill active px-2 py-0.5 font-mono
+                  rounded border-2 border-uchu-dark-gray bg-uchu-dark-gray
+                  text-uchu-yang cursor-pointer transition-colors"
+            >all</button
+          >
+          {
+            cats.map((cat) => (
+              <button
+                data-cat-filter={cat}
+                class="cat-pill px-2 py-0.5 font-mono rounded 
+                    border-2 cursor-pointer transition-colors"
+                style={`border-color: var(--cat-color-${cat}); color: var(--cat-color-${cat});`}
+              >
+                {cat}
+              </button>
+            ))
+          }
+        </div>
+        <input
+          id="search-input"
+          type="text"
+          autocomplete="off"
+          spellcheck="false"
+          class="font-mono text-sm bg-transparent border-b-2 border-uchu-gray
+                outline-none text-uchu-yin placeholder:text-uchu-gray w-36
+                focus:border-uchu-dark-gray transition-all duration-150 pb-0.5"
+          placeholder="search..."
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full flex justify-center py-4">
+    <div class="w-full max-w-300 px-4 md:px-8">
+      <div id="grid-wrap" class="w-full">
+        <div
+          id="symbol-grid"
+          class="symbol-grid grid w-full gap-2
+              grid-cols-[repeat(auto-fill,minmax(5rem,1fr))] relative"
+        >
+          {
+            Object.entries(grouped).map(([v, { abbrevs, cat }]) => (
+              <div
+                data-symbol-cell
+                data-symbol={v}
+                data-cat={cat}
+                data-abbreviations={abbrevs.map((s) => `\\${s}`).join("\n")}
+              >
+                <SymbolCell child={v} hover={abbrevs} />
+              </div>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div
+    id="modal-backdrop"
+    class="hidden fixed inset-0 z-40 bg-uchu-yin/20"
+    aria-hidden="true"
+  >
+  </div>
+
+  <div
+    id="symbol-details"
+    class="hidden fixed bottom-0 left-0 right-0 z-50
+          sm:bottom-4 sm:left-1/2 sm:right-auto sm:w-96 sm:-translate-x-1/2
+          bg-uchu-yang rounded-t-2xl sm:rounded-2xl shadow-2xl p-8 pt-4
+          translate-y-full opacity-0 pointer-events-none sm:mb-8
+          transition-[transform,opacity] duration-200 ease-out"
+    role="dialog"
+    aria-modal="true"
+  >
+    <div class="flex items-start justify-between mb-4 mt-2">
+      <div class="flex flex-row items-end gap-4 mt-2">
+        <div
+          id="detail-symbol-container"
+          class="aspect-square w-[10em] flex items-center rounded justify-center bg-uchu-yin/10"
+        >
+          <div
+            id="detail-symbol"
+            class="text-7xl font-math leading-none select-none"
+          >
+            ∎
+          </div>
+        </div>
+
+        <button
+          id="copy-button"
+          class="opacity-30 hover:opacity-100 transition-opacity cursor-pointer"
+          title="Copy symbol"
+        >
+          <img src={copy} alt="Copy" />
+        </button>
+      </div>
+      <button
+        id="detail-close"
+        class="text-2xl leading-none cursor-pointer text-uchu-dark-gray
+              hover:text-uchu-yin transition-colors ml-4 mt-1"
+        aria-label="Close">&times;</button
+      >
+    </div>
+
+    <p
+      id="detail-cat"
+      class="font-mono h-fit px-1 text-sm rounded border-2 mb-4 w-fit border-uchu-yang"
+    >
+    </p>
+    <p class="mb-2 text-sm">Insert this symbol by typing</p>
+    <ul
+      id="detail-abbreviations"
+      class="text-sm font-mono list-none mb-3 space-y-2"
+    >
+    </ul>
+    <p
+      id="copy-toast"
+      class="text-xs font-mono text-uchu-dark-gray opacity-0
+            transition-opacity duration-200"
+    >
+      copied!
+    </p>
+  </div>
+
+  <div class="w-full flex justify-center pb-6">
+    made with love by&nbsp;<span
+      ><a class="font-mono" href="https://quartztz.com">quartztz.com</a></span
+    >
+  </div>
+
+  <style>
+    :root {
+      --cat-color-algebra: var(--uchu-dark-red);
+      --cat-color-altscript: var(--uchu-dark-blue);
+      --cat-color-brackets: var(--uchu-dark-green);
+      --cat-color-comparison: var(--uchu-dark-yellow);
+      --cat-color-currency: var(--uchu-dark-purple);
+      --cat-color-font: var(--uchu-dark-pink);
+      --cat-color-greek: var(--uchu-dark-orange);
+      --cat-color-latin: var(--uchu-purple);
+      --cat-color-logic: var(--uchu-blue);
+      --cat-color-set: var(--uchu-red);
+      --cat-color-misc: var(--uchu-dark-gray);
+    }
+    .cat-pill.active {
+      background-color: var(--active-cat-color, var(--uchu-dark-gray));
+      color: var(--uchu-yang) !important;
+      border-color: var(--active-cat-color, var(--uchu-dark-gray)) !important;
+    }
+    [data-symbol-cell].hidden,
+    [data-symbol-cell].search-hidden {
+      display: none;
+    }
+  </style>
+
+  <script is:inline define:vars={{ copy }}>
+    const searchInput = document.getElementById("search-input");
+
+    function runSearch(query) {
+      const q = query.trim().toLowerCase().replace(/^\\/, "");
+      cells.forEach((cell) => {
+        if (!q) {
+          cell.classList.remove("search-hidden");
+        } else {
+          const symbol = (cell.getAttribute("data-symbol") ?? "").toLowerCase();
+          const abbrevs = (
+            cell.getAttribute("data-abbreviations") ?? ""
+          ).toLowerCase();
+          cell.classList.toggle(
+            "search-hidden",
+            !symbol.includes(q) && !abbrevs.includes(q),
+          );
+        }
+      });
+    }
+
+    searchInput?.addEventListener("input", (e) => runSearch(e.target.value));
+    searchInput?.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        searchInput.value = "";
+        runSearch("");
+      }
+    });
+
+    const cells = document.querySelectorAll("[data-symbol-cell]");
+    const details = document.getElementById("symbol-details");
+    const backdrop = document.getElementById("modal-backdrop");
+    const symbolEl = document.getElementById("detail-symbol");
+    const listEl = document.getElementById("detail-abbreviations");
+    const closeBtn = document.getElementById("detail-close");
+    const category = document.getElementById("detail-cat");
+    const copyToast = document.getElementById("copy-toast");
+    const copyBtn = document.getElementById("copy-button");
+
+    let toastTimer;
+    function showToast() {
+      copyToast?.classList.remove("opacity-0");
+      copyToast?.classList.add("opacity-100");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        copyToast?.classList.remove("opacity-100");
+        copyToast?.classList.add("opacity-0");
+      }, 1200);
+    }
+
+    function copyToClipboard(text) {
+      showToast();
+      if (navigator.clipboard?.writeText) {
+        navigator.clipboard.writeText(text).catch(() => {});
+      } else {
+        const el = document.createElement("textarea");
+        el.value = text;
+        el.style.position = "fixed";
+        el.style.opacity = "0";
+        document.body.appendChild(el);
+        el.focus();
+        el.select();
+        document.execCommand("copy");
+        document.body.removeChild(el);
+      }
+    }
+
+    copyBtn?.addEventListener("click", () => {
+      const text = symbolEl.textContent?.trim();
+      if (text) copyToClipboard(text);
+    });
+
+    function closeDetails() {
+      details?.classList.add(
+        "translate-y-full",
+        "opacity-0",
+        "pointer-events-none",
+      );
+      details?.classList.remove(
+        "translate-y-0",
+        "opacity-100",
+        "pointer-events-auto",
+      );
+      backdrop?.classList.add("opacity-0", "pointer-events-none");
+      backdrop?.classList.remove("opacity-100", "pointer-events-auto");
+      details?.addEventListener(
+        "transitionend",
+        () => {
+          details?.classList.add("hidden");
+          backdrop?.classList.add("hidden");
+        },
+        { once: true },
+      );
+    }
+
+    closeBtn?.addEventListener("click", closeDetails);
+    backdrop?.addEventListener("click", closeDetails);
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeDetails();
+    });
+
+    const pills = document.querySelectorAll("[data-cat-filter]");
+
+    function setFilter(cat) {
+      pills.forEach((pill) => {
+        const isActive = pill.getAttribute("data-cat-filter") === cat;
+        pill.classList.toggle("active", isActive);
+        const catName = pill.getAttribute("data-cat-filter");
+        const color =
+          catName === "all"
+            ? "var(--uchu-dark-gray)"
+            : `var(--cat-color-${catName})`;
+        if (isActive) pill.style.setProperty("--active-cat-color", color);
+      });
+      cells.forEach((cell) => {
+        const cellCat = cell.getAttribute("data-cat");
+        const hide = cat !== "all" && cellCat !== cat;
+        cell.classList.toggle("hidden", hide);
+      });
+    }
+
+    pills.forEach((pill) => {
+      pill.addEventListener("click", () => {
+        const cat = pill.getAttribute("data-cat-filter");
+        const alreadyActive = pill.classList.contains("active");
+        setFilter(alreadyActive && cat !== "all" ? "all" : cat);
+      });
+    });
+
+    cells.forEach((cell) => {
+      cell.addEventListener("click", () => {
+        const symbol = cell.getAttribute("data-symbol") ?? "";
+        const abbreviations = (cell.getAttribute("data-abbreviations") ?? "")
+          .split("\n")
+          .filter(Boolean);
+
+        if (symbolEl) symbolEl.textContent = symbol;
+        if (listEl) {
+          listEl.innerHTML = "";
+          abbreviations.forEach((abbr) => {
+            const li = document.createElement("li");
+            li.className = "flex items-center gap-3";
+            const span = document.createElement("span");
+            span.textContent = abbr;
+            const btn = document.createElement("button");
+            btn.className =
+              "copy-abbr-btn opacity-30 hover:opacity-100 transition-opacity cursor-pointer shrink-0";
+            btn.title = "Copy abbreviation";
+            btn.innerHTML = `<img src="${copy}" alt="Copy" />`;
+            btn.addEventListener("click", (e) => {
+              e.stopPropagation();
+              copyToClipboard(abbr.replace(/^\\/, ""));
+            });
+            li.appendChild(span);
+            li.appendChild(btn);
+            listEl.appendChild(li);
+          });
+        }
+        if (category) {
+          const cat = cell.getAttribute("data-cat") ?? "";
+          category.textContent = cat;
+          const color = cat ? `var(--cat-color-${cat})` : "";
+          category.style.borderColor = color;
+          category.style.color = color;
+        }
+        backdrop?.classList.remove("hidden");
+        void backdrop?.offsetWidth;
+        backdrop?.classList.remove("opacity-0", "pointer-events-none");
+        backdrop?.classList.add("opacity-100", "pointer-events-auto");
+
+        details?.classList.remove("hidden");
+        void details?.offsetWidth; // force reflow so transition fires
+        details?.classList.remove(
+          "translate-y-full",
+          "opacity-0",
+          "pointer-events-none",
+        );
+        details?.classList.add(
+          "translate-y-0",
+          "opacity-100",
+          "pointer-events-auto",
+        );
+      });
+    });
+  </script>
+</Window>

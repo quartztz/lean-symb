@@ -11,5 +11,8 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
+  site: 'https://quartztz.github.io',
+  base: 'lean-symb',
+
   integrations: [react()]
 });

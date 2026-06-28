@@ -1,5 +1,5 @@
 import React from "react";
-import { colorFor } from "../lib/colors";
+import { colorFor, intersperse } from "../lib/utils";
 
 type Abbrevs = string[];
 
@@ -190,10 +190,8 @@ export const Categorizer = () => {
   const currentCat = assignments[current.symbol];
 
   return (
-    <div className="w-full flex flex-col items-center gap-5 p-4">
-
-
-      <div className="flex flex-row items-start gap-4">
+    <div className="w-full flex justify-center items-center gap-5 p-4">
+      <div className="flex flex-row items-start gap-4 w-3/5 py-3">
         <div className="w-fit flex flex-col items-center">
           <div className="flex w-full flex-row justify-between p-2">
             <p className="text-sm font-mono text-uchu-dark-gray">
@@ -207,76 +205,84 @@ export const Categorizer = () => {
             </span>
           </div>
         </div>
-        <div className="pt-10 w-40">
-          Write it as:
 
-          <ul>{current.abbrevs.map((a) => (
-            <li key={a}>\{a}</li>
-          ))}
-          </ul>
-        </div>
-      </div>
+        <div className="h-full flex flex-col gap-3 pt-12">
+          <div>
+            Write it as:
+            <div className="flex flex-wrap items-center">
+              {
+                intersperse(current.abbrevs.map((a) => (
+                  <div className="font-mono py-1 px-2 m-1 rounded-sm w-fit" key={a} >
+                    \{a}
+                  </div>)), <span>;</span>)
+              }
+            </div>
+          </div>
 
-      <div className="flex flex-col p-2 gap-2 items-center max-w-1/2">
-        <div className="flex flex-wrap gap-2 items-center justify-center">
-          {categories.map((cat) => {
-            const color = colorFor(cat, categories);
-            const active = currentCat === cat;
-            return (
-              <button
-                key={cat}
-                className={pillBase}
-                style={
-                  active
-                    ? { backgroundColor: color, borderColor: color, color: "var(--uchu-yang)" }
-                    : { borderColor: color, color }
-                }
-                onClick={() => assign(cat)}
-              >
-                {cat}
-              </button>
-            );
-          })}
-        </div>
+          <div className="flex flex-wrap gap-2">
+            {categories.map((cat) => {
+              const color = colorFor(cat, categories);
+              const active = currentCat === cat;
+              return (
+                <button
+                  key={cat}
+                  className={pillBase}
+                  style={
+                    active
+                      ? { backgroundColor: color, borderColor: color, color: "var(--uchu-yang)" }
+                      : { borderColor: color, color }
+                  }
+                  onClick={() => assign(cat)}
+                >
+                  {cat}
+                </button>
+              );
+            })}
+          </div>
 
-        <form
-          className="flex items-center gap-2"
-          onSubmit={(e) => {
-            e.preventDefault();
-            assign(draft);
-          }}
-        >
-          <input
-            type="text"
-            autoComplete="off"
-            spellCheck={false}
-            value={draft}
-            onChange={(e) => setDraft(e.target.value)}
-            placeholder="or new..."
-            className="font-mono text-sm bg-transparent border-b-2 border-uchu-gray outline-none text-uchu-yin placeholder:text-uchu-gray w-40 focus:border-uchu-dark-gray transition-all duration-150 pb-0.5"
-          />
-          <button
-            type="submit"
-            className="px-2 py-0.5 rounded border-2 border-uchu-dark-gray cursor-pointer text-sm font-mono"
+          <form
+            className="flex items-center gap-2"
+            onSubmit={(e) => {
+              e.preventDefault();
+              assign(draft);
+            }}
           >
-            add &amp; next
-          </button>
-        </form>
+            <input
+              type="text"
+              autoComplete="off"
+              spellCheck={false}
+              value={draft}
+              onChange={(e) => setDraft(e.target.value)}
+              placeholder="or new..."
+              className="font-mono text-sm bg-transparent border-b-2 
+                  border-uchu-gray outline-none text-uchu-yin 
+                  placeholder:text-uchu-gray focus:border-uchu-dark-gray
+                  transition-all duration-150 pb-0.5"
+            />
+            <button
+              type="submit"
+              className="px-2 py-0.5 rounded border-2 border-uchu-dark-gray
+                  cursor-pointer text-sm font-mono"
+            >
+              add &amp; next
+            </button>
+          </form>
 
-        <div className="flex gap-3 text-sm">
-          <button
-            className="px-3 py-1 rounded border-2 border-uchu-dark-gray cursor-pointer disabled:opacity-30"
-            onClick={back}
-            disabled={index === 0}
-          >
-            back
-          </button>
-          <button
-            className="px-3 py-1 rounded border-2 border-uchu-dark-gray cursor-pointer"
-            onClick={skip}
-          >
-            skip
-          </button>
+          <div className="flex gap-3 text-sm w-full">
+            <button
+              className="px-3 py-1 rounded border-2 border-uchu-dark-gray cursor-pointer disabled:opacity-30"
+              onClick={back}
+              disabled={index === 0}
+            >
+              back
+            </button>
+            <button
+              className="px-3 py-1 rounded border-2 border-uchu-dark-gray cursor-pointer"
+              onClick={skip}
+            >
+              skip
+            </button>
+          </div>
         </div>
       </div>
     </div >

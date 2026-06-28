@@ -1,0 +1,11 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { Window } from "../../components/Window.tsx";
+import { Categorizer } from "../../components/Categorizer.tsx";
+---
+
+<Layout>
+  <Window id="miaou" title="categorizer" fill>
+    <Categorizer client:load />
+  </Window>
+</Layout>

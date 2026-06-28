@@ -2,6 +2,7 @@
 import grouped from "../../public/grouped.json";
 import { SymbolCell } from "./SymbolCell";
 import { Window } from "./Window";
+import { colorFor } from "../lib/colors";
 import copy from "./copy.svg?url";
 
 const cats = [
@@ -19,29 +20,6 @@ const cats = [
 
 const GH_SOURCE_LINK =
   "https://github.com/leanprover/vscode-lean4/blob/8ae6710deae85b9f7b379e4fd3cf6a7495ec1424/lean4-unicode-input/src/abbreviations.json";
-
-// Palette used to colour category pills. Categories cycle deterministically
-// through this palette based on their (stable, sorted) index, so any new
-// category automatically gets a colour without a hardcoded mapping.
-const PALETTE = [
-  "var(--uchu-dark-red)",
-  "var(--uchu-dark-blue)",
-  "var(--uchu-dark-green)",
-  "var(--uchu-dark-yellow)",
-  "var(--uchu-dark-purple)",
-  "var(--uchu-dark-pink)",
-  "var(--uchu-dark-orange)",
-  "var(--uchu-purple)",
-  "var(--uchu-blue)",
-  "var(--uchu-red)",
-];
-
-function colorFor(cat: string, categories: string[]): string {
-  if (cat === "misc") return "var(--uchu-dark-gray)";
-  const i = categories.indexOf(cat);
-  const idx = i === -1 ? categories.length : i;
-  return PALETTE[idx % PALETTE.length];
-}
 ---
 
 <Window id="main" title="quartztz::lean-symb">

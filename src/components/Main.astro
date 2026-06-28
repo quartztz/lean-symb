@@ -19,6 +19,29 @@ const cats = [
 
 const GH_SOURCE_LINK =
   "https://github.com/leanprover/vscode-lean4/blob/8ae6710deae85b9f7b379e4fd3cf6a7495ec1424/lean4-unicode-input/src/abbreviations.json";
+
+// Palette used to colour category pills. Categories cycle deterministically
+// through this palette based on their (stable, sorted) index, so any new
+// category automatically gets a colour without a hardcoded mapping.
+const PALETTE = [
+  "var(--uchu-dark-red)",
+  "var(--uchu-dark-blue)",
+  "var(--uchu-dark-green)",
+  "var(--uchu-dark-yellow)",
+  "var(--uchu-dark-purple)",
+  "var(--uchu-dark-pink)",
+  "var(--uchu-dark-orange)",
+  "var(--uchu-purple)",
+  "var(--uchu-blue)",
+  "var(--uchu-red)",
+];
+
+function colorFor(cat: string, categories: string[]): string {
+  if (cat === "misc") return "var(--uchu-dark-gray)";
+  const i = categories.indexOf(cat);
+  const idx = i === -1 ? categories.length : i;
+  return PALETTE[idx % PALETTE.length];
+}
 ---
 
 <Window id="main" title="quartztz::lean-symb">
@@ -178,20 +201,13 @@ const GH_SOURCE_LINK =
     >
   </div>
 
+  <style
+    set:html={`:root {\n${cats
+      .map((cat) => `  --cat-color-${cat}: ${colorFor(cat, cats)};`)
+      .join("\n")}\n}`}
+  ></style>
+
   <style>
-    :root {
-      --cat-color-algebra: var(--uchu-dark-red);
-      --cat-color-altscript: var(--uchu-dark-blue);
-      --cat-color-brackets: var(--uchu-dark-green);
-      --cat-color-comparison: var(--uchu-dark-yellow);
-      --cat-color-currency: var(--uchu-dark-purple);
-      --cat-color-font: var(--uchu-dark-pink);
-      --cat-color-greek: var(--uchu-dark-orange);
-      --cat-color-latin: var(--uchu-purple);
-      --cat-color-logic: var(--uchu-blue);
-      --cat-color-set: var(--uchu-red);
-      --cat-color-misc: var(--uchu-dark-gray);
-    }
     .cat-pill.active {
       background-color: var(--active-cat-color, var(--uchu-dark-gray));
       color: var(--uchu-yang) !important;

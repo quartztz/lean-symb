@@ -15,6 +15,15 @@ type Entry = {
   abbrevs: Abbrevs;
 };
 
+const schema: string = `{ 
+  $SYMBOL: {
+    "abbrevs": [
+      $ABBREVIATION1,
+      ...
+    ]
+  }
+}`
+
 // maybe grab from the uploaded json? maybe provide a standard set?
 const DEFAULT_CATEGORIES: string[] = ["misc"];
 
@@ -130,22 +139,40 @@ export const Categorizer = () => {
   if (!entries) {
     return (
       <div className="w-full flex flex-col items-center gap-3 py-6">
-        <label
-          htmlFor="file"
-          className="p-2 rounded-sm border border-uchu-dark-gray w-fit cursor-pointer"
-        >
-          Import a <code>.json</code> to start.
-        </label>
-        <input
-          ref={inputRef}
-          className="opacity-0 w-0 h-0"
-          type="file"
-          id="file"
-          name="abbrevs"
-          accept=".json,application/json"
-          onChange={handleFile}
-        />
-        {error && <p className="text-sm text-uchu-dark-red font-mono">{error}</p>}
+        <div className="w-4/5">
+          <h1>
+            <span className="font-mono">lean-symb</span> categorizer
+          </h1>
+          upload a <span className="font-mono">.json</span> file, built from the
+          reference abbreviations file to obtain the following schema
+          <pre>
+            {schema}
+          </pre>
+          this tool allows you to define your own categories, and sort the symbols
+          according to them. use it to build a new categorization proposal.
+
+          <div className="w-full flex justify-center p-2">
+            <label
+              htmlFor="file"
+              className="p-2 rounded-sm border border-uchu-dark-gray w-fit cursor-pointer"
+            >
+              Import a <code>.json</code> to start.
+            </label>
+            <input
+              ref={inputRef}
+              className="opacity-0 w-0 h-0"
+              type="file"
+              id="file"
+              name="abbrevs"
+              accept=".json,application/json"
+              onChange={handleFile}
+            />
+            {error && <p className="text-sm text-uchu-dark-red font-mono">{error}</p>}
+          </div>
+
+          if there's enough interest, there may be a feature to upload your own file
+          for use on the main view, but that's not planned for now.
+        </div>
       </div>
     );
   }

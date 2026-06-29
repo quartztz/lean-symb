@@ -1,0 +1,14 @@
+name: PR check
+
+on:
+  pull_request:
+    branches: [ main ]
+  
+jobs: 
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v6
+      - name: build code
+        uses: withastro/action@v6

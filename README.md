@@ -4,7 +4,7 @@
 
 `abbreviations.json` defines the following schema: 
 
-```json
+```text
 {
   $ABBREVIATION: $SYMBOL,
   ...
@@ -14,7 +14,7 @@
 where namely, a symbol can appear multiple times. the provided scala file can be
 used to obtain a `grouped.json` that looks like:
 
-```json
+```text
 {
   $SYMBOL: {
     "abbrevs": [
@@ -28,7 +28,7 @@ used to obtain a `grouped.json` that looks like:
 this file can in turn be used with the categorizer hosted on `/cats` to write
 your own categories. the final file will have the following scheme:
 
-```json
+```text
 {
   $SYMBOL: {
     "abbrevs": [

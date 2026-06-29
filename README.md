@@ -42,3 +42,6 @@ your own categories. the final file will have the following scheme:
 
 you can use this to propose a new organization, and maybe eventually to be able
 to upload and use your preferred cats.
+
+the scala file defines a pipeline that can be used to manage files in order to
+obtain a satisfactory `grouped.json` file.

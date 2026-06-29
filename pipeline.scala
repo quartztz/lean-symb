@@ -7,12 +7,12 @@ import upickle.default.*
 def clean(symb: String): String = "$CURSOR".r.replaceFirstIn(symb, "☐")
 
 @main def abbrev =
-  val data = ujson.read(os.read(os.pwd / "abbreviations.json")).obj
+  val data = ujson.read(os.read(os.pwd / "abr.json")).obj
 
   val grpd: Map[String, Map[String, List[String]]] = Map.from(
-    data.groupMapReduce(kv => clean(kv._2.str))(kv =>
-      Map("abbrevs" -> List(kv._1))
-    )(_ ++ _)
+    data.groupBy(_._2.str).map { case (symb, kvs) =>
+      clean(symb) -> Map("abbrevs" -> kvs.keys.toList)
+    }
   )
 
   os.write.over(os.pwd / "grouped.json", write(grpd))

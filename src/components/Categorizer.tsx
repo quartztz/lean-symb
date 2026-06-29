@@ -139,7 +139,7 @@ export const Categorizer = () => {
   if (!entries) {
     return (
       <div className="w-full flex flex-col items-center gap-3 py-6">
-        <div className="w-4/5">
+        <div className="w-4/5 max-w-200">
           <h1>
             <span className="font-mono">lean-symb</span> categorizer
           </h1>
